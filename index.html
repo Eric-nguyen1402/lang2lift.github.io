@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Lang2Lift: A Framework for Language-Guided Pallet Detection and Pose Estimation Integrated in Autonomous Outdoor Forklift Operation</title>
+  <link rel="icon" type="image/x-icon" href="static/pdfs/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Lang2Lift: A Framework for Language-Guided Pallet Detection and Pose Estimation Integrated in Autonomous Outdoor Forklift Operation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=T_LryjgAAAAJ&hl=en" target="_blank">Huy Hoang Nguyen</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                  <span class="author-block">
+                    <a href="https://publications.ait.ac.at/de/persons/johannes.huemer" target="_blank">Johannes Huemer</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=S8yQbTQAAAAJ&hl=en" target="_blank">Markus Murschitz</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=WKLBdZ4AAAAJ&hl=en" target="_blank">Tobias Glück</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=qyExc4QAAAAJ&hl=en" target="_blank">Minh Nhat Vu</a><sup>1,2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=ee4tJYgAAAAJ&hl=en" target="_blank">Andreas Kugi</a><sup>1,2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>AIT Austrian Institute of Technology</span>&nbsp;&nbsp;
+                    <span class="author-block"><sup>2</sup>ACIN - TU Wien</span>&nbsp;&nbsp;
+                  </div>
+                  <div class="logo-container">
+                    <img src="./static/images/ait_logo_ohne_claim_c1_rgb.jpg" />
+                    <img src="./static/images/acin-tuw.png" />
+                  </div>
+                  <!-- <div class="column has-text-centered">
+                    <div class="publication-links"> -->
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://youtu.be/XZIpZKQPmBY" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </span>
+                      <span>Video</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <!-- <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This paper presents Lang2Lift, a framework that leverages foundation models to enable natural language-guided pallet detection and pose estimation for autonomous outdoor forklift operations in challenging logistics environments. Unlike traditional systems requiring pre-programmed pallet characteristics, our approach enables operators to specify selection criteria through intuitive commands such as "select the steel beam pallet near the crane."
+The framework integrates vision-language model with robust 6D pallet pose estimation in outdoor environments with variable lighting and cluttered multi-pallet scenes. Our system consists of two main pipelines: a perception pipeline utilizing Florence-2 for language-guided grounded segmentation and masking combined with PoseFoundation for pose estimation, and a planning pipeline that integrates pose detection with motion planning for autonomous forklift operations.
+Experimental validation on the ADAPT autonomous forklift platform demonstrates improvements in pose estimation accuracy compared to traditional approaches, with comprehensive analysis of pose estimation errors across different methodologies.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Paper video. -->
+<div class="columns is-centered has-text-centered">
+  <div class="column is-two-thirds">
+    <h2 class="title is-3">Video</h2>
+    <div class="publication-video">
+      <iframe src="https://www.youtube.com/embed/XZIpZKQPmBY?modestbranding=1&autohide=1&showinfo=0&controls=1"
+        frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</section>
+<!-- End teaser video -->
+
+<!-- Method -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Method</h2>
+
+      <div class="columns is-vcentered  is-centered">
+        <img src="./static/images/Lang2Lift_flowchart.png" alt="method" />
+        </br>
+      </div>
+      <br>
+      <h2 class="subtitle has-text-centered">
+        The Lang2Lift framework consists of two primary pipelines seamlessly integrated through a centralized coordination system operating at 5 Hz: the Perception Pipeline, which processes visual input and natural language instructions to identify and localize target pallets using Vision FMs for language-grounded object detection and precise pose tracking, and the Planning and Control Pipeline, which translates pose estimates into executable forklift operations, performs collision-free motion planning, and executes precise control with centimeter-level accuracy. 
+      </h2>
+        
+      </div>
+    </div>
+  </section>
+<!--End Method -->
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Experiment in Real-World Environments</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-D405">
+          <img src="./static/images/ex1.png" id="D405" alt="Blue Block" height="100%">
+          <div class="subtitle has-text-centered">The pallet with concrete block on top</div>
+        </div>
+        <div class="item item-D415">
+          <img src="./static/images/ex2.png" id="D415" alt="Metal" height="100%">
+          <div class="subtitle has-text-centered">The pallet in the middle</div>
+        </div>
+        <div class="item item-D435">
+          <img src="./static/images/ex3.png" id="D435" alt="Orange Block" height="100%">
+          <div class="subtitle has-text-centered">The right gray pallet</div>
+        </div>
+        <div class="item item-D435i">
+          <img src="./static/images/ex4.png" id="D435i" alt="Plier" height="100%">
+          <div class="subtitle has-text-centered">The left pallet with shorter box on top</div>
+        </div>
+        <!-- <div class="item item-D455">
+          <img src="./static/images/D455.png" id="D455" alt="Scissor" height="100%">
+          <div class="subtitle has-text-centered">D455</div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+
+    <div class="rows">
+
+      <!-- Animation. -->
+      <div class="rows is-centered ">
+        <div class="row is-full-width">
+
+            <!--/ Results. -->
+            <h2 class="title is-3">Results</h2>
+
+            <div class="container">
+              <div class="columns is-vcentered  is-centered">
+                <img src="./static/images/table1.png" alt="results1" />
+                </br>
+              </div>
+              <br>
+              <h2 class="subtitle has-text-centered">
+                Results show that our method delivers robust zero-shot performance across challenging conditions,
+                 achieving a mean IoU (mIoU) of 0.85 with a 94.3% success rate in sunny weather, 
+                 0.77 mIoU with 89.7% in snow, 0.78 mIoU with 88.3% under occlusion, and 0.65 mIoU with 82.9% in low light, 
+                 for an overall average of 0.76 mIoU and 90.5% success—significantly outperforming traditional CNN-based approaches (0.4–0.5 mIoU). 
+                 These results highlight the foundation model’s large-scale pre-training advantage, enabling adaptation to weather, lighting, 
+                 and visibility variations without domain-specific data, while supporting diverse natural language commands with spatial, visual, 
+                 and contextual references, thus ensuring intuitive operator interaction for practical deployment in logistics environments.
+              </h2>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+              <div class="columns is-vcentered  is-centered">
+                <img src="./static/images/table2.png" alt="results2" />
+                </br>
+              </div>
+              <br>
+              <h2 class="subtitle has-text-centered">
+               We evaluated 6D pose accuracy on the YCB-Video benchmark using ADD and ADD-S metrics, with our zero-shot foundation model achieving 0.91 ADD 
+               and 0.97 ADD-S—surpassing the previous best (0.86 ADD, 0.92 ADD-S) from specialized RGB-D pipelines with task-specific optimization. 
+               These results show that foundation model integration delivers state-of-the-art accuracy without task-specific training or fine-tuning, 
+               offering a major practical advantage by removing the need for extensive data collection and retraining when adapting to new environments or object types. 
+              </h2>
+            </div>
+            <br>
+            <br>
+             <div class="container">
+              <div class="columns is-vcentered  is-centered">
+                <img src="./static/images/table3.png" alt="results3" />
+                </br>
+              </div>
+              <br>
+              <h2 class="subtitle has-text-centered">
+               Autonomous pallet manipulation requires precise adherence to kinematic and geometric constraints of forklift parameters and pallet dimensions.
+               Critical tolerance thresholds ensure reliable fork insertion: lateral accuracy within +/-0.05 meters and vertical clearance of +/-0.04 meters. 
+               Roll and pitch deviations are filtered to maintain ground-parallel assumptions. The accuracy of the pose degrades predictably with distance following the quadratic stereo vision scaling.
+               Single detections at angles exceeding $15^\circ$ often fail tolerance requirements, although accuracy improves during approach maneuvers, achieving compliance in the final phases. 
+               Heavy or large cargo introduces Z-axis boundary detection errors, but the system maintains sufficient accuracy across the evaluated scenarios.
+              </h2>
+            </div>
+            <br>
+            <br>
+             <div class="container">
+              <div class="columns is-vcentered  is-centered">
+                <img src="./static/images/table4.png" alt="results4" />
+                </br>
+              </div>
+              <br>
+              <h2 class="subtitle has-text-centered">
+               Real-time performance represents a critical requirement for safe autonomous operations in dynamic industrial environments. 
+               We conducted a comprehensive timing analysis on all components of the system during successful manipulation maneuvers.
+              The perception pipeline processes complete language-to-pose cycles in approximately 1.67 seconds on average, enabling responsive operation while maintaining the accuracy requirements for industrial deployment. 
+              Florence-2 vision-language detection operates at 7.1 Hz, while SAM-2 segmentation achieves 25.0 Hz performance, both suitable for dynamic environment monitoring. 
+              Pose estimation and geometric adjustment represent the primary computational bottleneck at 1.2 Hz, although this frequency remains adequate for the approach maneuvers typical of forklift operations.
+              </h2>
+            </div>
+            <br>
+            <br>
+
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container"> -->
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video"> -->
+            <!-- Youtube embed code here -->
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{NGUYEN2025103335,
+                  title = {Language-driven closed-loop grasping with model-predictive trajectory optimization},
+                  journal = {Mechatronics},
+                  volume = {109},
+                  pages = {103335},
+                  year = {2025},
+                  issn = {0957-4158},
+                  doi = {https://doi.org/10.1016/j.mechatronics.2025.103335},
+                  url = {https://www.sciencedirect.com/science/article/pii/S0957415825000443},
+                  author = {H.H. Nguyen and M.N. Vu and F. Beck and G. Ebmer and A. Nguyen and W. Kemmetmueller and A. Kugi},
+                  keywords = {Language-driven object detection, Pose estimation, Grasping, Trajectory optimization},
+                  }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<section class="section" id="acknowledgements">
+  <div class="container content is-max-desktop">
+    <h2 class="title">Acknowledgements</h2>
+    <p>We borrow the page template from  <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page. Special thanks to them!
+      <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+      Commons Attribution-ShareAlike 4.0 International License</a>.
+    </p>
+  </div>
+</section>
+
+  <!-- <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            We borrow the page template from  <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page. Special thanks to them!
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
