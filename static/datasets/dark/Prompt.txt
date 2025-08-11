@@ -1,0 +1,48 @@
+dark1:
+- Locate the wooden pallet in the center of the image
+- Identify the pallet positioned under the light beams
+- Detect the rectangular wooden pallet resting on the floor
+dark2:
+- Locate the wooden pallet leaning in the foreground.
+- Identify all pallets stacked and leaning against each other.
+- Detect the angled pallet with visible paint stains.
+dark3:
+- Locate the wooden pallet in the lower left of the image.
+- Identify the pallet positioned in the upper right corner.
+- Detect both pallets placed separately against the dark background.
+dark4:
+- Locate the wooden pallet in the foreground covered with patches of snow.
+- Identify the pallet placed on the ground near the left side of the image.
+- Detect both pallets lying on the snowy surface.
+dark5:
+- Locate the snow-covered pallet on the left side of the image.
+- Identify the wooden pallet lying on the ground in front of the yellow poles.
+- Detect the pallet placed on the icy surface near the left edge.
+dark6:
+- Locate the empty wooden pallet in the center of the image.
+- Identify the pallet positioned between the two crates.
+- Detect the central pallet placed on the dirt path.
+dark7:
+- Locate the stacked wooden pallets forming the walls around the scene.
+- Identify the pallets arranged vertically along the right side of the image.
+- Detect the horizontal rows of pallets illuminated by purple and blue lights.
+dark8:
+- Locate the tall stacks of pallets illuminated with blue lighting on the left side of the image.
+- Identify the vertical pallet stacks positioned in the center and right side of the scene.
+- Detect the multiple pallet towers forming walls under colored lights.
+dark9:
+- Locate the stack of wooden pallets illuminated at the center of the image.
+- Identify the pallets arranged in multiple layers under the spotlight.
+- Detect the rectangular stack of pallets placed indoors with a city skyline in the background.
+dark10:
+- Spot the multiple stacks of wooden pallets along the waterfront.
+- Highlight the pallets arranged in tall columns near the water's edge.
+- Pinpoint the group of pallets positioned in front of the city skyline.
+dark11:
+- Mark the two rows of pallets lying on the floor in the foreground.
+- Recognize the large stacked wall of pallets at the back of the studio.
+- Trace all pallets present in the scene, both on the ground and in tall stacks.
+dark12:
+- Spot the wooden pallet lying flat in the foreground.
+- Outline the pallet placed on the ground in front of the warehouse.
+- Highlight the pallet positioned at the center of the image under the lights.

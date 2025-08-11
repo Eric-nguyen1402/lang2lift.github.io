@@ -1,0 +1,158 @@
+sunny1: the pallets in the center 1
+- the wooden pallets in the center 1
+- the wooden pallets in the middle 1
+- the wooden pallets 1
+- the middle pallets 1
+- the pallets in the storage 0
+sunny2: the pallets 1
+- the wooden pallets 1
+- the wooden pallets in the middle 1
+- the wooden middle pallets 1
+- the pallets in the image 1
+sunny3:  the pallet 1
+- the pallet in the middle
+- the wooden pallet 0
+- the wooden pallet in the middle 0
+- the middle wooden pallet 0
+- the wooden pallet at the center 1
+- the centered wooden pallet 1
+- the centered pallet 1
+sunny4: the pallets 0
+- the pallets in the middle 0
+- the wooden pallets 0
+- the wooden pallets in the middle 0
+- the middle wooden pallets 0
+- the wooden pallets at the center 0
+- the centered wooden pallets 0
+- the centered pallets 0
+sunny5: the pallets 1
+- the pallets in the middle 1
+- the wooden pallets 1
+- the wooden pallets in the middle 1
+- the middle wooden pallets 1
+- the wooden pallets at the center 1
+- the centered wooden pallets 1
+- the centered pallets 1
+sunny6: the pallets
+- the pallets in the middle
+- the wooden pallets
+- the wooden pallets in the middle
+- the middle wooden pallets
+- the wooden pallets at the center
+- the centered wooden pallets
+- the centered pallets
+sunny7: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
+sunny8: the pallets
+- the pallets in the middle
+- the wooden pallets
+- the wooden pallets in the middle
+- the middle wooden pallets
+- the wooden pallets at the center
+- the centered wooden pallets
+- the centered pallets
+sunny9: the pallets
+- the pallet on the left
+- the wooden pallet on the left
+- the wooden pallet on the right
+- the wooden pallet under the shadow
+- the right pallet under the shadow
+- the left wooden pallet
+- the pallets next to the forklift
+- the two pallets at the center
+sunny10: the pallets
+- the blue pallets 
+- the blue pallet under the wooden pallet
+- the blue pallets in the middle image
+- the blue pallet in the middle wooden pallets
+- the wooden pallet on top of the blue pallet
+sunny11: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
+sunny12: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
+- the wooden pallet ahead the forklift
+sunny13: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
+- the wooden pallet ahead the forklift
+sunny14: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
+- the wooden pallet ahead the forklift
+sunny15: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
+- the wooden pallet ahead the forklift
+sunny16: the pallets
+- the empty pallet
+- the wooden pallets
+- the wooden empty pallet
+- the wooden pallet with the box on top
+- the pallet with the box on top
+sunny17: the red pallet
+- the grey pallet
+- the left red pallet
+- the right gray pallet
+- the gray pallet on the right side
+- the red pallet on the left side
+sunny18: the red pallet
+- the grey pallet
+- the left red pallet
+- the right gray pallet
+- the gray pallet on the right side
+- the red pallet on the left side
+sunny19: the red pallet
+- the pallet with concrete block on top
+- the right red pallet
+- the left pallet with concrete block on top
+- the red pallet on the right side
+- the wooden pallet on the left side
+sunny20: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
+sunny21: the pallet
+- the pallet in the middle
+- the wooden pallet
+- the wooden pallet in the middle
+- the middle wooden pallet
+- the wooden pallet at the center
+- the centered wooden pallet
+- the centered pallet
