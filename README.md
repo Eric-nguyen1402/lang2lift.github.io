@@ -1,5 +1,5 @@
-# Dynamic Robotic Grasping: A Combination of Real-Time Trajectory Planning and ML-Based Novel Object Pose Detection
-[Link project](https://eric-nguyen1402.github.io/closedloop.github.io/)
+# Lang2Lift: A Framework for Language-Guided Pallet Detection and Pose Estimation Integrated in Autonomous Outdoor Forklift Operation
+[Link project](https://eric-nguyen1402.github.io/lang2lift.github.io/)
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
