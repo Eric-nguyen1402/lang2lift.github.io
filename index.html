@@ -218,7 +218,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
       <h2 class="title is-3">Test Datasets</h2>
       <!-- Sunny Dataset Carousel -->
       <h3 class="title is-4" style="margin-top:1.5rem">Sunny</h3>
-      <div id="sunny-carousel" class="carousel results-carousel">
+  <div id="sunny-carousel" class="carousel results-carousel dataset-carousel">
         <div class="item"><img src="./static/datasets/sunny/sunny1.jpg" alt="Sunny 1"><div class="subtitle has-text-centered">Sunny 1</div></div>
         <div class="item"><img src="./static/datasets/sunny/sunny2.jpg" alt="Sunny 2"><div class="subtitle has-text-centered">Sunny 2</div></div>
         <div class="item"><img src="./static/datasets/sunny/sunny3.jpg" alt="Sunny 3"><div class="subtitle has-text-centered">Sunny 3</div></div>
@@ -265,7 +265,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
       <!-- Snowy Dataset Carousel -->
       <h3 class="title is-4" style="margin-top:2rem">Snowy</h3>
-      <div id="snowy-carousel" class="carousel results-carousel">
+  <div id="snowy-carousel" class="carousel results-carousel dataset-carousel">
         <div class="item"><img src="./static/datasets/snowy/snow1.jpg" alt="Snow 1"><div class="subtitle has-text-centered">Snow 1</div></div>
         <div class="item"><img src="./static/datasets/snowy/snow2.jpg" alt="Snow 2"><div class="subtitle has-text-centered">Snow 2</div></div>
         <div class="item"><img src="./static/datasets/snowy/snow3.png" alt="Snow 3"><div class="subtitle has-text-centered">Snow 3</div></div>
@@ -311,7 +311,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
       <!-- Dark Dataset Carousel -->
       <h3 class="title is-4" style="margin-top:2rem">Dark</h3>
-      <div id="dark-carousel" class="carousel results-carousel">
+  <div id="dark-carousel" class="carousel results-carousel dataset-carousel">
         <div class="item"><img src="./static/datasets/dark/dark1.jpg" alt="Dark 1"><div class="subtitle has-text-centered">Dark 1</div></div>
         <div class="item"><img src="./static/datasets/dark/dark2.jpg" alt="Dark 2"><div class="subtitle has-text-centered">Dark 2</div></div>
         <div class="item"><img src="./static/datasets/dark/dark3.jpg" alt="Dark 3"><div class="subtitle has-text-centered">Dark 3</div></div>
@@ -328,7 +328,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
       <!-- Occlusion Dataset Carousel -->
       <h3 class="title is-4" style="margin-top:2rem">Occlusion</h3>
-      <div id="occlusion-carousel" class="carousel results-carousel">
+  <div id="occlusion-carousel" class="carousel results-carousel dataset-carousel">
         <div class="item"><img src="./static/datasets/occlusion/occ1.png" alt="Occlusion 1"><div class="subtitle has-text-centered">Occlusion 1</div></div>
         <div class="item"><img src="./static/datasets/occlusion/occ2.png" alt="Occlusion 2"><div class="subtitle has-text-centered">Occlusion 2</div></div>
         <div class="item"><img src="./static/datasets/occlusion/occ3.png" alt="Occlusion 3"><div class="subtitle has-text-centered">Occlusion 3</div></div>
@@ -379,72 +379,46 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
             <!--/ Results. -->
             <h2 class="title is-3">Results</h2>
-
             <div class="container">
-              <div class="columns is-vcentered  is-centered">
-                <img src="./static/images/table1.png" alt="results1" />
-                </br>
+              <div class="columns is-multiline is-centered">
+                <!-- Table 1 -->
+                <div class="column is-12-tablet is-6-desktop">
+                  <figure class="has-text-centered">
+                    <img src="./static/images/table1.png" alt="Quantitative performance across conditions" style="width:100%;height:auto;" />
+                    <figcaption class="subtitle is-size-6 has-text-justified" style="margin-top:0.75rem;">
+                      Results show robust zero-shot performance across challenging conditions: mIoU 0.85 (94.3% success) sunny, 0.77 (89.7%) snow, 0.78 (88.3%) occlusion, 0.65 (82.9%) low light. Overall 0.76 mIoU / 90.5% success—outperforming traditional CNN baselines (0.4–0.5 mIoU). Foundation model pre-training enables adaptation to weather, lighting, and visibility variations while supporting diverse natural language references.
+                    </figcaption>
+                  </figure>
+                </div>
+                <!-- Table 2 -->
+                <div class="column is-12-tablet is-6-desktop">
+                  <figure class="has-text-centered">
+                    <img src="./static/images/table2.png" alt="6D pose accuracy benchmark" style="width:100%;height:auto;" />
+                    <figcaption class="subtitle is-size-6 has-text-justified" style="margin-top:0.75rem;">
+                      6D pose accuracy (YCB-Video): zero-shot foundation model reaches 0.91 ADD / 0.97 ADD-S, surpassing prior specialized RGB-D pipelines (0.86 / 0.92) without task-specific optimization—eliminating costly data collection and retraining for new objects or environments.
+                    </figcaption>
+                  </figure>
+                </div>
+                <!-- Table 3 -->
+                <div class="column is-12-tablet is-6-desktop">
+                  <figure class="has-text-centered">
+                    <img src="./static/images/table3.png" alt="Pose tolerance analysis" style="width:100%;height:auto;" />
+                    <figcaption class="subtitle is-size-6 has-text-justified" style="margin-top:0.75rem;">
+                      Operational tolerance analysis: lateral ±0.05 m and vertical ±0.04 m required for reliable fork insertion. Accuracy degrades quadratically with distance (stereo geometry) and single views beyond 15° often fail, but refinement during approach restores compliance. Heavy or tall cargo affects Z-boundary detection yet remains within functional limits.
+                    </figcaption>
+                  </figure>
+                </div>
+                <!-- Table 4 -->
+                <div class="column is-12-tablet is-6-desktop">
+                  <figure class="has-text-centered">
+                    <img src="./static/images/table4.png" alt="Runtime performance breakdown" style="width:100%;height:auto;" />
+                    <figcaption class="subtitle is-size-6 has-text-justified" style="margin-top:0.75rem;">
+                      Runtime profile: full language-to-pose cycle ≈1.67 s. Florence-2 detection 7.1 Hz; SAM-2 segmentation 25.0 Hz; pose estimation + geometric adjustment 1.2 Hz (primary bottleneck) yet sufficient for typical forklift approach dynamics.
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <br>
-              <h2 class="subtitle has-text-centered">
-                Results show that our method delivers robust zero-shot performance across challenging conditions,
-                 achieving a mean IoU (mIoU) of 0.85 with a 94.3% success rate in sunny weather, 
-                 0.77 mIoU with 89.7% in snow, 0.78 mIoU with 88.3% under occlusion, and 0.65 mIoU with 82.9% in low light, 
-                 for an overall average of 0.76 mIoU and 90.5% success—significantly outperforming traditional CNN-based approaches (0.4–0.5 mIoU). 
-                 These results highlight the foundation model’s large-scale pre-training advantage, enabling adaptation to weather, lighting, 
-                 and visibility variations without domain-specific data, while supporting diverse natural language commands with spatial, visual, 
-                 and contextual references, thus ensuring intuitive operator interaction for practical deployment in logistics environments.
-              </h2>
             </div>
-            <br>
-            <br>
-            <div class="container">
-              <div class="columns is-vcentered  is-centered">
-                <img src="./static/images/table2.png" alt="results2" />
-                </br>
-              </div>
-              <br>
-              <h2 class="subtitle has-text-centered">
-               We evaluated 6D pose accuracy on the YCB-Video benchmark using ADD and ADD-S metrics, with our zero-shot foundation model achieving 0.91 ADD 
-               and 0.97 ADD-S—surpassing the previous best (0.86 ADD, 0.92 ADD-S) from specialized RGB-D pipelines with task-specific optimization. 
-               These results show that foundation model integration delivers state-of-the-art accuracy without task-specific training or fine-tuning, 
-               offering a major practical advantage by removing the need for extensive data collection and retraining when adapting to new environments or object types. 
-              </h2>
-            </div>
-            <br>
-            <br>
-             <div class="container">
-              <div class="columns is-vcentered  is-centered">
-                <img src="./static/images/table3.png" alt="results3" />
-                </br>
-              </div>
-              <br>
-              <h2 class="subtitle has-text-centered">
-               Autonomous pallet manipulation requires precise adherence to kinematic and geometric constraints of forklift parameters and pallet dimensions.
-               Critical tolerance thresholds ensure reliable fork insertion: lateral accuracy within +/-0.05 meters and vertical clearance of +/-0.04 meters. 
-               Roll and pitch deviations are filtered to maintain ground-parallel assumptions. The accuracy of the pose degrades predictably with distance following the quadratic stereo vision scaling.
-               Single detections at angles exceeding $15^\circ$ often fail tolerance requirements, although accuracy improves during approach maneuvers, achieving compliance in the final phases. 
-               Heavy or large cargo introduces Z-axis boundary detection errors, but the system maintains sufficient accuracy across the evaluated scenarios.
-              </h2>
-            </div>
-            <br>
-            <br>
-             <div class="container">
-              <div class="columns is-vcentered  is-centered">
-                <img src="./static/images/table4.png" alt="results4" />
-                </br>
-              </div>
-              <br>
-              <h2 class="subtitle has-text-centered">
-               Real-time performance represents a critical requirement for safe autonomous operations in dynamic industrial environments. 
-               We conducted a comprehensive timing analysis on all components of the system during successful manipulation maneuvers.
-              The perception pipeline processes complete language-to-pose cycles in approximately 1.67 seconds on average, enabling responsive operation while maintaining the accuracy requirements for industrial deployment. 
-              Florence-2 vision-language detection operates at 7.1 Hz, while SAM-2 segmentation achieves 25.0 Hz performance, both suitable for dynamic environment monitoring. 
-              Pose estimation and geometric adjustment represent the primary computational bottleneck at 1.2 Hz, although this frequency remains adequate for the approach maneuvers typical of forklift operations.
-              </h2>
-            </div>
-            <br>
-            <br>
 
 </section>
 <!-- End image carousel -->

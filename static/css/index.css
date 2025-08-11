@@ -148,4 +148,44 @@ body {
   margin: 0; /* Reset margin, gap handles spacing */
 }
 
+/* Dataset carousels: make images smaller and consistently sized */
+/* Unified dataset carousel styling */
+.dataset-carousel {
+  max-width: 680px;
+  margin: 0 auto 1.75rem auto;
+}
+
+.dataset-carousel .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 340px; /* Fixed frame to avoid jump */
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+}
+
+.dataset-carousel .item img {
+  max-height: 240px; /* Smaller uniform image */
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  background: #fff;
+  padding: 4px;
+}
+
+.dataset-carousel .subtitle {
+  font-size: 0.75rem;
+  margin-top: 0.35rem;
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .dataset-carousel .item { height: 300px; }
+  .dataset-carousel .item img { max-height: 200px; }
+}
+
 
