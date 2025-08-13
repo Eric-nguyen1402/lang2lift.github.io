@@ -567,16 +567,16 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
   </body>
   <script>
-// Improved prompt display logic
+// Improved prompt display logic (v2: better error info + layout class hook)
 (function() {
   const categories = ['sunny','snowy','dark','occlusion'];
   const promptCache = {};
-  const autoOpenAll = false; // set true if you want every list open by default
+  const autoOpenAll = false;
 
   function parsePrompts(text){
     const map = {};
     let current = null;
-    text.replace(/^\uFEFF/, ''); // remove BOM if present
+    text.replace(/^\uFEFF/, '');
     text.split(/\r?\n/).forEach(raw=>{
       const line = raw.trim();
       if(!line) return;
@@ -592,17 +592,21 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
   async function loadCategoryPrompts(cat){
     if (promptCache[cat]) return promptCache[cat];
+    let error = null;
     try {
       const res = await fetch(`./static/datasets/${cat}/prompt.txt`, {cache:'no-cache'});
-      if(!res.ok) throw new Error(`HTTP ${res.status}`);
+      if(!res.ok){
+        error = `HTTP ${res.status}`;
+        throw new Error(error);
+      }
       const text = await res.text();
       const map = parsePrompts(text);
       promptCache[cat] = map;
       return map;
     } catch(e){
       console.warn('Prompt load failed for', cat, e);
-      promptCache[cat] = {};
-      return {};
+      promptCache[cat] = {_error: error || e.message || 'fetch-failed'};
+      return promptCache[cat];
     }
   }
 
@@ -614,43 +618,41 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
     preview.className='prompt-preview';
     preview.textContent = prompts[0];
 
-    const toggle = document.createElement('button');
-    toggle.type='button';
-    toggle.className='prompt-toggle button is-light is-small';
-    toggle.textContent = 'Show all prompts';
-
-    const list = document.createElement('ul');
-    list.className='prompt-list';
-    prompts.forEach((p,i)=>{
-      if(i===0) return; // first is preview
-      const li=document.createElement('li');
-      li.textContent=p;
-      list.appendChild(li);
-    });
-
-    toggle.addEventListener('click', ()=>{
-      const open = list.classList.toggle('is-open');
-      toggle.textContent = open ? 'Hide prompts' : 'Show all prompts';
-    });
-
-    if (autoOpenAll && list.children.length){
-      list.classList.add('is-open');
-      toggle.textContent='Hide prompts';
-    }
-
-    wrapper.appendChild(preview);
-    if (list.children.length) {
+    const remaining = prompts.slice(1);
+    if(remaining.length){
+      const toggle = document.createElement('button');
+      toggle.type='button';
+      toggle.className='prompt-toggle button is-light is-small';
+      toggle.textContent = 'Show all prompts';
+      const list = document.createElement('ul');
+      list.className='prompt-list';
+      remaining.forEach(p=>{
+        const li=document.createElement('li');
+        li.textContent=p;
+        list.appendChild(li);
+      });
+      toggle.addEventListener('click', ()=>{
+        const open = list.classList.toggle('is-open');
+        toggle.textContent = open ? 'Hide prompts' : 'Show all prompts';
+      });
+      if (autoOpenAll){
+        list.classList.add('is-open');
+        toggle.textContent='Hide prompts';
+      }
+      wrapper.appendChild(preview);
       wrapper.appendChild(toggle);
       wrapper.appendChild(list);
+    } else {
+      wrapper.appendChild(preview);
     }
     return wrapper;
   }
 
-  function attachFailureMessage(itemEl){
+  function attachFailureMessage(itemEl, reason){
     if(itemEl.querySelector('.prompt-wrapper')) return;
     const fail = document.createElement('div');
     fail.className='prompt-wrapper prompt-error';
-    fail.textContent='Prompts unavailable (open via local server or check prompt.txt).';
+    fail.textContent=`Prompts unavailable (${reason || 'no prompt.txt'}).`;
     itemEl.appendChild(fail);
   }
 
@@ -658,27 +660,30 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
     const carousel = document.querySelector(`.dataset-carousel[data-category='${cat}']`);
     if(!carousel) return;
     const map = await loadCategoryPrompts(cat);
-    const items = carousel.querySelectorAll('.item');
-    items.forEach(item=>{
+    const hadError = !!map._error;
+    carousel.querySelectorAll('.item').forEach(item=>{
       const img = item.querySelector('img');
       if(!img) return;
-      const base = (img.getAttribute('src')||'').split('/').pop().split('.')[0]; // e.g. sunny1
+      const base = (img.getAttribute('src')||'').split('/').pop().split('.')[0]; // e.g. dark1
       const prompts = map[base];
       if(prompts && prompts.length){
         if(!item.querySelector('.prompt-wrapper')){
-          const ui = createPromptUI(prompts);
-            item.appendChild(ui);
+          item.appendChild(createPromptUI(prompts));
         }
+      } else if(hadError){
+        attachFailureMessage(item, map._error);
       } else {
-        // Only show error if fetch succeeded but no key OR global load fail
-        if(Object.keys(map).length === 0){
-          attachFailureMessage(item);
-        }
+        // Key not found => show message (likely naming mismatch)
+        attachFailureMessage(item, 'no matching key ('+base+')');
       }
     });
   }
 
   function init(){
+    // Add a class so CSS can target carousels once Bulma initializes
+    document.querySelectorAll('.dataset-carousel').forEach(c=>{
+      c.classList.add('with-prompts');
+    });
     categories.forEach(processCategory);
   }
 

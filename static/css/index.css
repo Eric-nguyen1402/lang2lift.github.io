@@ -183,6 +183,54 @@ body {
   line-height: 1.1;
 }
 
+/* Reserve vertical space and prevent pagination overlap */
+.dataset-carousel.with-prompts {
+  overflow: visible;
+  padding-bottom: 2.5rem; /* space for dots if absolutely positioned */
+}
+.dataset-carousel.with-prompts .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+.dataset-carousel.with-prompts .prompt-wrapper {
+  width: 100%;
+  max-width: 520px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.dataset-carousel.with-prompts .subtitle {
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+}
+
+/* Force pagination (dots) below prompts & avoid overlap */
+.carousel.results-carousel .carousel-pagination,
+.carousel.results-carousel .carousel-navigation,
+.carousel.results-carousel .pagination {
+  position: relative !important;
+  bottom: auto !important;
+  margin-top: 0.75rem;
+  z-index: 1;
+}
+
+/* If plugin uses absolute positioning with .is-overlay */
+.carousel.results-carousel .is-overlay.carousel-pagination {
+  position: relative !important;
+}
+
+/* Optional smaller dot size to reduce visual clutter */
+.carousel.results-carousel .carousel-pagination .pagination-list li a,
+.carousel.results-carousel .pagination-list li .pagination-link {
+  width: 6px;
+  height: 6px;
+  min-width: 6px;
+  min-height: 6px;
+}
+
+/* Prompt styles (retain previous) */
 .prompt-wrapper {
   margin-top: 0.4rem;
   text-align: left;
