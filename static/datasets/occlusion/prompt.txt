@@ -1,13 +1,15 @@
 occ1:
-- Identify the wooden pallet supporting the stack of wrapped boxes.
-- Locate the pallet positioned near the truck loading area.
-- Mark the pallet at the bottom of the cargo in the warehouse.
+- Spot the wooden pallet supporting the stack of wrapped boxes.
+
+- Pinpoint the pallet positioned near the truck loading area.
+
+- Highlight the pallet at the bottom of the cargo in the warehouse.
 occ2:
-- Spot the wooden pallets beneath the stacks of cardboard boxes.
+- Locate the wooden pallets beneath the stacks of cardboard boxes.
 
-- Highlight each pallet supporting the cargo near the shipping container.
+- Emphasize each pallet supporting the cargo near the shipping container.
 
-- Pinpoint the pallets placed under the boxed goods in the loading area.
+- Outline the pallets placed under the boxed goods in the loading area.
 occ3:
 - Recognize the pallets supporting the wrapped stacks of cardboard boxes.
 
@@ -27,7 +29,7 @@ occ5:
 
 - Highlight the pallet beneath the stacked cardboard boxes ready for transport.
 occ6:
-- Spot the empty wooden pallet on the far left side of the scene.
+- Locate the empty wooden pallet on the far left side of the scene.
 
 - Highlight the pallet carrying a white block in the center.
 
@@ -41,19 +43,19 @@ occ7:
 occ8:
 - Select the pallet carrying the wooden crate in the center of the road.
 
-- Pick the pallet positioned ahead of the forklift tines.
+- Target the pallet positioned ahead of the forklift tines.
 
 - Grab the wooden pallet supporting the stacked box structure.
 occ9:
 - Lift the pallet carrying a large wooden crate with the forklift.
 
-- Fork the pallet positioned at an angle in front of the red vehicle.
+- Engage the pallet positioned at an angle in front of the red vehicle.
 
 - Grab the wooden pallet supporting the cargo in the center of the scene.
 occ10:
 - Fork the pallet carrying the large wooden crate in front of the red vehicle.
 
-- Lift the wooden pallet supporting the cargo near the forklift mast.
+- Raise the wooden pallet supporting the cargo near the forklift mast.
 
 - Grab the pallet positioned under the rectangular wooden box.
 occ11:
@@ -77,9 +79,9 @@ occ13:
 occ14:
 - Approach the wooden pallet carrying the crate in front of the forklift.
 
-- Align with the pallet positioned on the paved surface ahead.
+- Align the pallet positioned on the paved surface ahead.
 
-- Prepare to fork the pallet supporting the rectangular wooden box.
+- Prepare the pallet supporting the rectangular wooden box.
 occ15:
 - Engage the wooden pallet carrying the crate in front of the forklift.
 
@@ -199,4 +201,4 @@ occ34:
 
 - Identify the wooden pallet supporting the heavy load of gray construction slabs.
 
-- Mark the pallet under the neatly bound layers of precast concrete pieces.
+- Mark the pallet under the neatly bound layers of precast concrete.

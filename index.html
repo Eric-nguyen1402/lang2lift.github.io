@@ -567,7 +567,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
   </body>
   <script>
-// Improved prompt display logic (v2: better error info + layout class hook)
+// Prompt logic v3 (robust bullet parsing + counts + debug)
 (function() {
   const categories = ['sunny','snowy','dark','occlusion'];
   const promptCache = {};
@@ -576,15 +576,28 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
   function parsePrompts(text){
     const map = {};
     let current = null;
+    const bulletRe = /^[\-\u2013\u2014\u2022*]\s*(.+)$/; // -, en dash, em dash, bullet, *
     text.replace(/^\uFEFF/, '');
-    text.split(/\r?\n/).forEach(raw=>{
+    const lines = text.split(/\r?\n/);
+    lines.forEach((raw,i)=>{
       const line = raw.trim();
       if(!line) return;
       if(/^[a-z]+[0-9]+:$/i.test(line)){
         current = line.slice(0,-1);
         map[current] = [];
-      } else if(line.startsWith('-') && current){
-        map[current].push(line.replace(/^-+\s*/,'').trim());
+        return;
+      }
+      const m = bulletRe.exec(line);
+      if(m && current){
+        const val = m[1].trim();
+        if(val) map[current].push(val);
+      }
+    });
+    // Debug: report any entries with fewer than 3 bullets (snow example)
+    Object.entries(map).forEach(([k,v])=>{
+      if(v.length < 2){
+        console.debug(`Prompt key '${k}' only parsed ${v.length} bullet(s). Raw lines near it:`,
+          lines.filter(l=>l.toLowerCase().startsWith(k+':') || bulletRe.test(l.trim())).slice(0,10));
       }
     });
     return map;
@@ -623,7 +636,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
       const toggle = document.createElement('button');
       toggle.type='button';
       toggle.className='prompt-toggle button is-light is-small';
-      toggle.textContent = 'Show all prompts';
+      toggle.textContent = `Show all prompts (${remaining.length} more)`;
       const list = document.createElement('ul');
       list.className='prompt-list';
       remaining.forEach(p=>{
@@ -633,7 +646,9 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
       });
       toggle.addEventListener('click', ()=>{
         const open = list.classList.toggle('is-open');
-        toggle.textContent = open ? 'Hide prompts' : 'Show all prompts';
+        toggle.textContent = open
+          ? 'Hide prompts'
+          : `Show all prompts (${remaining.length} more)`;
       });
       if (autoOpenAll){
         list.classList.add('is-open');
@@ -664,7 +679,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
     carousel.querySelectorAll('.item').forEach(item=>{
       const img = item.querySelector('img');
       if(!img) return;
-      const base = (img.getAttribute('src')||'').split('/').pop().split('.')[0]; // e.g. dark1
+      const base = (img.getAttribute('src')||'').split('/').pop().split('.')[0];
       const prompts = map[base];
       if(prompts && prompts.length){
         if(!item.querySelector('.prompt-wrapper')){
@@ -673,14 +688,12 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
       } else if(hadError){
         attachFailureMessage(item, map._error);
       } else {
-        // Key not found => show message (likely naming mismatch)
         attachFailureMessage(item, 'no matching key ('+base+')');
       }
     });
   }
 
   function init(){
-    // Add a class so CSS can target carousels once Bulma initializes
     document.querySelectorAll('.dataset-carousel').forEach(c=>{
       c.classList.add('with-prompts');
     });

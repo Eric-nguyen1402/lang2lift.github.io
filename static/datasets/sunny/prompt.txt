@@ -1,252 +1,252 @@
 sunny1:
-- Detect neatly stacked wooden pallets in an indoor warehouse under warm lighting.
+- Spot neatly stacked wooden pallets in an indoor warehouse under warm lighting.
 
-- Identify multiple piles of wooden pallets stored inside a large industrial building.
+- Highlight multiple piles of wooden pallets stored inside a large industrial building.
 
-- Locate and count stacks of wooden pallets arranged in rows within a warehouse.
+- Survey and count stacks of wooden pallets arranged in rows within a warehouse.
 sunny2:
-- Detect a large stack of weathered wooden pallets outdoors, some with visible dirt and hay.
+- Observe a large stack of weathered wooden pallets outdoors, some with visible dirt and hay.
 
-- Identify multiple old wooden pallets piled in disorganized stacks in an outdoor setting.
+- Mark multiple old wooden pallets piled in disorganized stacks in an outdoor setting.
 
-- Locate and highlight worn wooden pallets with uneven stacking and signs of aging.
+- Outline and highlight worn wooden pallets with uneven stacking and signs of aging.
 sunny3:
-- Detect neatly stacked new wooden pallets with smooth surfaces and light-colored wood.
+- Pinpoint neatly stacked new wooden pallets with smooth surfaces and light-colored wood.
 
-- Identify a pile of clean, freshly manufactured wooden pallets in an outdoor setting.
+- Recognize a pile of clean, freshly manufactured wooden pallets in an outdoor setting.
 
-- Locate stacks of light wood pallets with even edges and uniform construction.
+- Catalog stacks of light wood pallets with even edges and uniform construction.
 sunny4:
-- Detect a single new wooden pallet leaning upright against a large stack of older pallets.
+- Identify a single new wooden pallet leaning upright against a large stack of older pallets.
 
-- Identify wooden pallets, highlighting the bright, freshly cut pallet in front of weathered ones.
+- Emphasize wooden pallets, highlighting the bright, freshly cut pallet in front of weathered ones.
 
-- Locate a light-colored pallet standing vertically with stacks of darker, used pallets in the background.
+- Spot a light-colored pallet standing vertically with stacks of darker, used pallets in the background.
 sunny5:
-- Detect stacks of wooden pallets arranged in rows inside an industrial warehouse.
+- Locate stacks of wooden pallets arranged in rows inside an industrial warehouse.
 
-- Identify multiple piles of wooden pallets placed on yellow-marked floor areas in a factory setting.
+- Mark multiple piles of wooden pallets placed on yellow-marked floor areas in a factory setting.
 
-- Locate industrial wooden pallets organized neatly in a production or storage facility.
+- Trace industrial wooden pallets organized neatly in a production or storage facility.
 sunny6:
-- Detect multiple stacks of wooden pallets arranged closely together outdoors.
+- Scan multiple stacks of wooden pallets arranged closely together outdoors.
 
-- Identify piles of light-colored wooden pallets stored in an open industrial storage area.
+- Count piles of light-colored wooden pallets stored in an open industrial storage area.
 
-- Locate and count the number of wooden pallet stacks in an outdoor storage yard.
+- Tally and count the number of wooden pallet stacks in an outdoor storage yard.
 sunny7:
-- Detect a single wooden pallet leaning against a stack of other pallets outdoors.
+- Observe a single wooden pallet leaning against a stack of other pallets outdoors.
 
-- Identify weathered wooden pallets stored in an outdoor yard with some painted blue.
+- Note weathered wooden pallets stored in an outdoor yard with some painted blue.
 
-- Locate and describe the arrangement of wooden pallets, including one propped at an angle.
+- Describe the arrangement of wooden pallets, including one propped at an angle.
 sunny8:
-- Detect a large collection of stacked wooden pallets in an outdoor warehouse area under a metal roof.
+- Review a large collection of stacked wooden pallets in an outdoor warehouse area under a metal roof.
 
-- Identify and count stacks of pallets in a storage facility with some lying flat on the ground.
+- Count and assess stacks of pallets in a storage facility with some lying flat on the ground.
 
-- Locate wooden pallets in various arrangements, including piles, leaning stacks, and loose pieces in a warehouse yard.
+- Examine wooden pallets in various arrangements, including piles, leaning stacks, and loose pieces in a warehouse yard.
 sunny9:
-- Detect two wooden pallets lying flat on the ground near a forklift in an industrial yard.
+- Spot two wooden pallets lying flat on the ground near a forklift in an industrial yard.
 
-- Identify and locate pallets placed side-by-side on a concrete floor, with a forklift and stacked pallets in the background.
+- Pinpoint and locate pallets placed side-by-side on a concrete floor, with a forklift and stacked pallets in the background.
 
 - Find wooden pallets in an outdoor industrial setting, including single pallets on the ground and a small stack nearby.
 sunny10:
-- Detect stacks of wooden pallets, some painted blue, arranged outdoors with a light layer of snow on the ground.
+- Observe stacks of wooden pallets, some painted blue, arranged outdoors with a light layer of snow on the ground.
 
 - Identify and locate multiple piles of wooden pallets in an outdoor storage area surrounded by trees in winter.
 
-- Find and mark wooden pallets, including both natural wood and blue-painted ones, in a snowy outdoor environment.
+- Mark and highlight wooden pallets, including both natural wood and blue-painted ones, in a snowy outdoor environment.
 sunny11:
-- Detect a single burnt and damaged wooden pallet lying on the ground outdoors.
+- Spot a single burnt and damaged wooden pallet lying on the ground outdoors.
 
-- Identify a blackened, charred wooden pallet placed on a patch of dirt and grass.
+- Recognize a blackened, charred wooden pallet placed on a patch of dirt and grass.
 
-- Locate and classify a fire-damaged pallet resting on uneven ground in an outdoor setting.
+- Classify a fire-damaged pallet resting on uneven ground in an outdoor setting.
 sunny12:
-- Detect a single wooden pallet held by a forklift inside a workshop environment.
+- View a single wooden pallet held by a forklift inside a workshop environment.
 
-- Identify a forklift carrying a standard EPAL wooden pallet in an indoor industrial workspace.
+- Highlight a forklift carrying a standard EPAL wooden pallet in an indoor industrial workspace.
 
-- Locate a wooden pallet mounted on forklift forks within a cluttered workshop scene.
+- Pinpoint a wooden pallet mounted on forklift forks within a cluttered workshop scene.
 sunny13:
-- Detect a wooden EPAL pallet held by a red autonomous forklift outdoors on a paved surface.
+- Notice a wooden EPAL pallet held by a red autonomous forklift outdoors on a paved surface.
 
-- Identify a forklift carrying a single standard wooden pallet in an open outdoor setting.
+- Mark a forklift carrying a single standard wooden pallet in an open outdoor setting.
 
-- Locate a pallet on forklift forks operated by a red robotic vehicle in an outdoor industrial area.
+- Spot a pallet on forklift forks operated by a red robotic vehicle in an outdoor industrial area.
 sunny14:
-- Detect a wooden pallet mounted on the forks of a red autonomous forklift outdoors on asphalt.
+- Observe a wooden pallet mounted on the forks of a red autonomous forklift outdoors on asphalt.
 
-- Identify a forklift holding a single Euro wooden pallet in an industrial outdoor setting.
+- Highlight a forklift holding a single Euro wooden pallet in an industrial outdoor setting.
 
-- Locate a pallet lifted by a robotic forklift on a paved surface with grass and buildings in the background.
+- Pinpoint a pallet lifted by a robotic forklift on a paved surface with grass and buildings in the background.
 sunny15:
-- Detect a Euro wooden pallet lifted by an autonomous red forklift in front of a robotics lab building.
+- Note a Euro wooden pallet lifted by an autonomous red forklift in front of a robotics lab building.
 
-- Identify a robotic forklift carrying a pallet on asphalt near the Large-Scale Robotics Lab.
+- Emphasize a robotic forklift carrying a pallet on asphalt near the Large-Scale Robotics Lab.
 
-- Locate a forklift holding a wooden pallet outdoors with a building and grass in the background.
+- Spot a forklift holding a wooden pallet outdoors with a building and grass in the background.
 sunny16:
-- Detect two wooden pallets on the ground, one empty and one loaded with wrapped goods, near an autonomous red forklift outdoors.
+- Identify two wooden pallets on the ground, one empty and one loaded with wrapped goods, near an autonomous red forklift outdoors.
 
-- Identify a robotic forklift approaching pallets, including one with a packaged load, in a sunny outdoor industrial area.
+- Observe a robotic forklift approaching pallets, including one with a packaged load, in a sunny outdoor industrial area.
 
-- Locate wooden pallets and a forklift in an open paved space with trees and buildings in the background.
+- Highlight wooden pallets and a forklift in an open paved space with trees and buildings in the background.
 sunny17:
-- Detect two empty wooden pallets, one red and one natural wood color, placed on the ground in an outdoor industrial area with logs nearby.
+- Spot two empty wooden pallets, one red and one natural wood color, placed on the ground in an outdoor industrial area with logs nearby.
 
-- Identify pallets on uneven terrain, with logs stacked to the left and a tripod visible on the right.
+- Mark pallets on uneven terrain, with logs stacked to the left and a tripod visible on the right.
 
-- Locate red and brown pallets positioned on a gravel surface in an open yard with buildings in the background.
+- Pinpoint red and brown pallets positioned on a gravel surface in an open yard with buildings in the background.
 sunny18:
-- Detect two empty pallets, one red and one natural wood, placed on a dirt and gravel surface outdoors, with logs stacked on the left.
+- View two empty pallets, one red and one natural wood, placed on a dirt and gravel surface outdoors, with logs stacked on the left.
 
-- Identify pallets in an industrial yard, with a tripod and cardboard boxes visible in the background.
+- Highlight pallets in an industrial yard, with a tripod and cardboard boxes visible in the background.
 
-- Locate red and brown pallets side-by-side on uneven terrain, with tree logs and scattered debris nearby.
+- Note red and brown pallets side-by-side on uneven terrain, with tree logs and scattered debris nearby.
 sunny19:
-- Detect a white load on a pallet, a red pallet, and a stack of logs outdoors on a dirt and gravel surface.
+- Observe a white load on a pallet, a red pallet, and a stack of logs outdoors on a dirt and gravel surface.
 
 - Identify pallets with and without cargo in an open industrial yard, with logs and a tripod in the background.
 
-- Locate a pallet carrying a large white block next to an empty red pallet, both placed on uneven ground.
+- Mark a pallet carrying a large white block next to an empty red pallet, both placed on uneven ground.
 sunny20:
-- Detect an empty wooden pallet placed on a gravel surface near stacked logs outdoors.
+- Spot an empty wooden pallet placed on a gravel surface near stacked logs outdoors.
 
-- Identify a single pallet in front of a pile of logs in an open yard with a mix of dirt and concrete ground.
+- Pinpoint a single pallet in front of a pile of logs in an open yard with a mix of dirt and concrete ground.
 
-- Locate a pallet positioned on uneven terrain beside stacked wooden logs under trees.
+- Highlight a pallet positioned on uneven terrain beside stacked wooden logs under trees.
 sunny21:
-- Detect an empty wooden pallet on muddy ground near a pile of logs and a portable cabin.
+- Note an empty wooden pallet on muddy ground near a pile of logs and a portable cabin.
 
-- Identify a pallet placed in an outdoor yard with logs stacked to the right and two people in the background.
+- Observe a pallet placed in an outdoor yard with logs stacked to the right and two people in the background.
 
-- Locate a pallet positioned on uneven wet terrain beside a stack of long timber logs near a container office.
+- Mark a pallet positioned on uneven wet terrain beside a stack of long timber logs near a container office.
 sunny22:
-- Detect a wooden pallet leaning against a metal fence in an outdoor area with fallen leaves on the ground.
+- View a wooden pallet leaning against a metal fence in an outdoor area with fallen leaves on the ground.
 
-- Identify a pallet positioned vertically, resting against fencing beside stacked construction materials.
+- Pinpoint a pallet positioned vertically, resting against fencing beside stacked construction materials.
 
-- Locate a single pallet placed upright outdoors near a wire fence, with dry leaves scattered around.
+- Highlight a single pallet placed upright outdoors near a wire fence, with dry leaves scattered around.
 sunny23:
-- Detect multiple wooden pallets loaded with goods wrapped in plastic film and secured with white straps, placed outdoors on a dirt surface.
+- Inspect multiple wooden pallets loaded with goods wrapped in plastic film and secured with white straps, placed outdoors on a dirt surface.
 
 - Identify three shrink-wrapped palletized loads with wooden framing, positioned in an open construction area.
 
-- Locate packed pallets with protective wrapping and strapping, standing on a sandy ground with trees in the background.
+- Highlight packed pallets with protective wrapping and strapping, standing on a sandy ground with trees in the background.
 sunny24:
-- Detect multiple wooden pallets loaded with stacked concrete blocks and slabs at an outdoor storage area.
+- Observe multiple wooden pallets loaded with stacked concrete blocks and slabs at an outdoor storage area.
 
-- Identify pallets carrying rectangular grey construction bricks and paving stones in a warehouse yard.
+- Mark pallets carrying rectangular grey construction bricks and paving stones in a warehouse yard.
 
-- Locate stacks of concrete building materials arranged on wooden pallets in an industrial storage site.
+- Pinpoint stacks of concrete building materials arranged on wooden pallets in an industrial storage site.
 sunny25:
-- Detect multiple wooden pallets stacked with large concrete blocks secured with green straps in an outdoor storage yard.
+- Inspect multiple wooden pallets stacked with large concrete blocks secured with green straps in an outdoor storage yard.
 
-- Identify construction materials, specifically grey concrete bricks, arranged in tall stacks on pallets.
+- Recognize construction materials, specifically grey concrete bricks, arranged in tall stacks on pallets.
 
-- Locate palletized concrete blocks stored outdoors with protective strapping for stability.
+- Highlight palletized concrete blocks stored outdoors with protective strapping for stability.
 sunny26:
-- Detect multiple tall stacks of concrete blocks arranged on wooden pallets in an outdoor construction supply area.
+- Examine multiple tall stacks of concrete blocks arranged on wooden pallets in an outdoor construction supply area.
 
-- Identify palletized grey concrete bricks bound with green straps and stored in large vertical stacks.
+- Assess palletized grey concrete bricks bound with green straps and stored in large vertical stacks.
 
-- Locate construction material pallets containing rectangular concrete blocks organized in rows outdoors.
+- Survey construction material pallets containing rectangular concrete blocks organized in rows outdoors.
 sunny27:
-- Detect a pallet loaded with grey concrete blocks tightly strapped with green plastic bands in an outdoor storage area.
+- Spot a pallet loaded with grey concrete blocks tightly strapped with green plastic bands in an outdoor storage area.
 
-- Identify a wooden pallet carrying stacked concrete bricks secured by green strapping.
+- Highlight a wooden pallet carrying stacked concrete bricks secured by green strapping.
 
-- Locate palletized concrete masonry units arranged in a compact cube and bound with straps.
+- Pinpoint palletized concrete masonry units arranged in a compact cube and bound with straps.
 sunny28:
-- Detect multiple pallets stacked with grey paving slabs wrapped in plastic film and strapped with green bands in an outdoor storage yard.
+- Inspect multiple pallets stacked with grey paving slabs wrapped in plastic film and strapped with green bands in an outdoor storage yard.
 
-- Identify palletized construction tiles packaged with stretch wrap and stored on bare ground.
+- Mark palletized construction tiles packaged with stretch wrap and stored on bare ground.
 
-- Locate stacks of concrete pavers on wooden pallets, each wrapped in clear plastic for outdoor storage.
+- Outline stacks of concrete pavers on wooden pallets, each wrapped in clear plastic for outdoor storage.
 sunny29:
-- Detect multiple pallets loaded with concrete blocks wrapped in plastic film, arranged in a row on a dirt surface.
+- Observe multiple pallets loaded with concrete blocks wrapped in plastic film, arranged in a row on a dirt surface.
 
 - Identify wrapped stacks of cinder blocks placed on wooden pallets outdoors.
 
-- Locate palletized concrete blocks covered in clear stretch wrap, positioned on uneven dirt ground.
+- Highlight palletized concrete blocks covered in clear stretch wrap, positioned on uneven dirt ground.
 sunny30:
-- Detect multiple empty wooden pallets stacked in piles in an outdoor construction storage area.
+- View multiple empty wooden pallets stacked in piles in an outdoor construction storage area.
 
-- Identify stacks of unused wooden pallets placed on asphalt in a worksite yard.
+- Mark stacks of unused wooden pallets placed on asphalt in a worksite yard.
 
-- Locate grouped wooden pallets arranged in several piles in an open industrial lot.
+- Catalog grouped wooden pallets arranged in several piles in an open industrial lot.
 sunny31:
-- Detect a stack of empty wooden pallets placed outdoors next to painted pallets.
+- Spot a stack of empty wooden pallets placed outdoors next to painted pallets.
 
-- Identify multiple unused wooden pallets arranged in a pile on a concrete surface.
+- Pinpoint multiple unused wooden pallets arranged in a pile on a concrete surface.
 
-- Locate stacked wooden pallets, some natural wood color and some painted, in an open storage area.
+- Highlight stacked wooden pallets, some natural wood color and some painted, in an open storage area.
 sunny32:
-- Detect a forklift unloading or placing a wooden pallet with flat stone slabs on a construction site.
+- Observe a forklift unloading or placing a wooden pallet with flat stone slabs on a construction site.
 
-- Identify a pallet holding rectangular stone tiles being handled by forklift forks.
+- Mark a pallet holding rectangular stone tiles being handled by forklift forks.
 
-- Locate a wooden pallet loaded with flat construction materials positioned in front of a forklift.
+- Highlight a wooden pallet loaded with flat construction materials positioned in front of a forklift.
 sunny33:
-- Detect multiple wooden pallets loaded with stacked concrete bricks and cement slabs near a building wall.
+- Inspect multiple wooden pallets loaded with stacked concrete bricks and cement slabs near a building wall.
 
-- Identify pallets carrying construction materials such as concrete blocks and paving stones.
+- Recognize pallets carrying construction materials such as concrete blocks and paving stones.
 
-- Locate wooden pallets loaded with rectangular building blocks and slabs in an outdoor storage area.
+- Highlight wooden pallets loaded with rectangular building blocks and slabs in an outdoor storage area.
 sunny34:
-- Detect wooden pallets loaded with stacked concrete blocks and cylindrical construction elements.
+- Examine wooden pallets loaded with stacked concrete blocks and cylindrical construction elements.
 
 - Identify pallets carrying building materials such as rectangular and round concrete units.
 
-- Locate wooden pallets with organized stacks of concrete blocks in an outdoor setting.
+- Highlight wooden pallets with organized stacks of concrete blocks in an outdoor setting.
 sunny35:
-- Detect wooden pallets loaded with neatly stacked rectangular paving stones bound with green straps.
+- Observe wooden pallets loaded with neatly stacked rectangular paving stones bound with green straps.
 
-- Identify pallets carrying flat concrete pavers arranged in tight stacks outdoors.
+- Mark pallets carrying flat concrete pavers arranged in tight stacks outdoors.
 
-- Locate pallets containing rectangular stone tiles secured with green bands.
+- Pinpoint pallets containing rectangular stone tiles secured with green bands.
 sunny36:
-- Detect a stack of empty wooden pallets at a construction site.
+- Spot a stack of empty wooden pallets at a construction site.
 
-- Identify multiple wooden pallets piled on top of each other in an outdoor work area.
+- Note multiple wooden pallets piled on top of each other in an outdoor work area.
 
-- Locate stacked pallets of varying conditions and colors at a construction yard.
+- Highlight stacked pallets of varying conditions and colors at a construction yard.
 sunny37:
-- Detect a small stack of empty wooden pallets on a concrete surface.
+- View a small stack of empty wooden pallets on a concrete surface.
 
 - Identify two wooden pallets placed one over the other outdoors.
 
-- Locate stacked wooden pallets lying on a flat paved ground.
+- Highlight stacked wooden pallets lying on a flat paved ground.
 sunny38:
-- Detect stacks of orange bricks placed on wooden pallets and wrapped in plastic.
+- Inspect stacks of orange bricks placed on wooden pallets and wrapped in plastic.
 
-- Identify multiple palletized loads of construction bricks arranged outdoors.
+- Recognize multiple palletized loads of construction bricks arranged outdoors.
 
-- Locate wooden pallets carrying wrapped stacks of orange building bricks.
+- Highlight wooden pallets carrying wrapped stacks of orange building bricks.
 sunny39:
-- Detect wooden pallets loaded with stacks of loose orange bricks outdoors.
+- Observe wooden pallets loaded with stacks of loose orange bricks outdoors.
 
-- Identify palletized stacks of construction bricks on a dirt surface.
+- Mark palletized stacks of construction bricks on a dirt surface.
 
-- Locate wooden pallets supporting neatly arranged orange building bricks.
+- Highlight wooden pallets supporting neatly arranged orange building bricks.
 sunny40:
-- Detect wooden pallets loaded with stacks of red clay bricks secured with green straps.
+- Examine wooden pallets loaded with stacks of red clay bricks secured with green straps.
 
-- Identify palletized brick stacks with manufacturer markings on some bricks.
+- Pinpoint palletized brick stacks with manufacturer markings on some bricks.
 
-- Locate bundles of red bricks wrapped and strapped on pallets in an outdoor storage area.
+- Highlight bundles of red bricks wrapped and strapped on pallets in an outdoor storage area.
 sunny41:
-- Detect a silver metallic pallet placed on bare dirt ground.
+- Spot a silver metallic pallet placed on bare dirt ground.
 
 - Identify an empty aluminum pallet lying on outdoor soil.
 
-- Locate an industrial metal pallet with parallel slats on a dirt surface.
+- Highlight an industrial metal pallet with parallel slats on a dirt surface.
 sunny42:
-- Detect multiple stacks of concrete blocks arranged on pallets outdoors.
+- Inspect multiple stacks of concrete blocks arranged on pallets outdoors.
 
-- Identify gray cinder blocks neatly stacked on wooden and concrete pallets.
+- Recognize gray cinder blocks neatly stacked on wooden and concrete pallets.
 
-- Locate construction site storage of masonry blocks organized in rows on pallets.
+- Highlight construction site storage of masonry blocks organized in rows on pallets.
