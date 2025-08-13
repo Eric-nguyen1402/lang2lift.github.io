@@ -221,3 +221,26 @@ snow36:
 
 - Locate brick-stacked wooden pallet in a snowy winter environment.
 snow37:
+- Detect multiple pallets stacked with wrapped construction materials in a snowy construction site.
+
+- Identify pallets carrying building supplies covered with snow in front of a construction area.
+
+- Locate snow-covered pallets loaded with wrapped bricks at a construction site.
+snow38:
+- Detect a pallet loaded with snow-covered concrete blocks at a snowy construction site.
+
+- Identify a wooden pallet carrying stacked concrete blocks in a partially built structure.
+
+- Locate pallets holding building materials such as concrete blocks at a construction area in winter.
+snow39:
+- Detect wooden pallets repurposed as outdoor furniture covered in snow under a wooden shelter.
+
+- Identify snow-covered pallet chairs and tables arranged in an open-air seating area.
+
+- Locate wooden pallets used as benches and tables in a snowy outdoor pavilion.
+snow40:
+- Detect wooden pallets arranged as outdoor benches and loungers, covered with snow.
+
+- Identify snow-covered pallet furniture in a park setting.
+
+- Locate wooden pallets repurposed as seating and lying areas, blanketed in snow.
