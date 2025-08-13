@@ -567,7 +567,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
 
   </body>
   <script>
-// Prompt logic v3 (robust bullet parsing + counts + debug)
+// Prompt logic v4
 (function() {
   const categories = ['sunny','snowy','dark','occlusion'];
   const promptCache = {};
@@ -576,10 +576,11 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
   function parsePrompts(text){
     const map = {};
     let current = null;
-    const bulletRe = /^[\-\u2013\u2014\u2022*]\s*(.+)$/; // -, en dash, em dash, bullet, *
+    // Include many dash variants: -, ‐(2010), ‑(2011), ‒(2012), –(2013), —(2014), •(2022), *
+    const bulletRe = /^[\-\u2010\u2011\u2012\u2013\u2014\u2022*]\s*(.+)$/;
     text.replace(/^\uFEFF/, '');
     const lines = text.split(/\r?\n/);
-    lines.forEach((raw,i)=>{
+    lines.forEach((raw)=>{
       const line = raw.trim();
       if(!line) return;
       if(/^[a-z]+[0-9]+:$/i.test(line)){
@@ -593,32 +594,21 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
         if(val) map[current].push(val);
       }
     });
-    // Debug: report any entries with fewer than 3 bullets (snow example)
-    Object.entries(map).forEach(([k,v])=>{
-      if(v.length < 2){
-        console.debug(`Prompt key '${k}' only parsed ${v.length} bullet(s). Raw lines near it:`,
-          lines.filter(l=>l.toLowerCase().startsWith(k+':') || bulletRe.test(l.trim())).slice(0,10));
-      }
-    });
     return map;
   }
 
   async function loadCategoryPrompts(cat){
     if (promptCache[cat]) return promptCache[cat];
-    let error = null;
     try {
       const res = await fetch(`./static/datasets/${cat}/prompt.txt`, {cache:'no-cache'});
-      if(!res.ok){
-        error = `HTTP ${res.status}`;
-        throw new Error(error);
-      }
+      if(!res.ok) throw new Error(`HTTP ${res.status}`);
       const text = await res.text();
       const map = parsePrompts(text);
-      promptCache[cat] = map;
+      promptCache[cat]=map;
       return map;
     } catch(e){
-      console.warn('Prompt load failed for', cat, e);
-      promptCache[cat] = {_error: error || e.message || 'fetch-failed'};
+      console.warn('Prompt load failed for',cat,e);
+      promptCache[cat]={_error:e.message||'fetch-failed'};
       return promptCache[cat];
     }
   }
@@ -627,18 +617,21 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
     const wrapper = document.createElement('div');
     wrapper.className='prompt-wrapper';
 
+    // Preview (first line)
     const preview = document.createElement('div');
     preview.className='prompt-preview';
-    preview.textContent = prompts[0];
+    preview.textContent = prompts[0] || '(no prompt)';
+    wrapper.appendChild(preview);
 
-    const remaining = prompts.slice(1);
-    if(remaining.length){
+    if (prompts.length > 1){
+      const remaining = prompts.slice(1);
       const toggle = document.createElement('button');
       toggle.type='button';
       toggle.className='prompt-toggle button is-light is-small';
       toggle.textContent = `Show all prompts (${remaining.length} more)`;
       const list = document.createElement('ul');
       list.className='prompt-list';
+      // Add ALL remaining lines
       remaining.forEach(p=>{
         const li=document.createElement('li');
         li.textContent=p;
@@ -654,20 +647,17 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
         list.classList.add('is-open');
         toggle.textContent='Hide prompts';
       }
-      wrapper.appendChild(preview);
       wrapper.appendChild(toggle);
       wrapper.appendChild(list);
-    } else {
-      wrapper.appendChild(preview);
     }
     return wrapper;
   }
 
   function attachFailureMessage(itemEl, reason){
     if(itemEl.querySelector('.prompt-wrapper')) return;
-    const fail = document.createElement('div');
+    const fail=document.createElement('div');
     fail.className='prompt-wrapper prompt-error';
-    fail.textContent=`Prompts unavailable (${reason || 'no prompt.txt'}).`;
+    fail.textContent=`Prompts unavailable (${reason||'no prompt.txt'}).`;
     itemEl.appendChild(fail);
   }
 
@@ -679,11 +669,14 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
     carousel.querySelectorAll('.item').forEach(item=>{
       const img = item.querySelector('img');
       if(!img) return;
-      const base = (img.getAttribute('src')||'').split('/').pop().split('.')[0];
+      const base = (img.getAttribute('src')||'').split('/').pop().split('.')[0]; // basename
       const prompts = map[base];
       if(prompts && prompts.length){
-        if(!item.querySelector('.prompt-wrapper')){
-          item.appendChild(createPromptUI(prompts));
+        const existing = item.querySelector('.prompt-wrapper');
+        if(existing) existing.remove(); // re-render (in case of old versions)
+        item.appendChild(createPromptUI(prompts));
+        if(prompts.length < 3){
+          console.debug(`Key ${base} has only ${prompts.length} prompts parsed`, prompts);
         }
       } else if(hadError){
         attachFailureMessage(item, map._error);
@@ -694,16 +687,14 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
   }
 
   function init(){
-    document.querySelectorAll('.dataset-carousel').forEach(c=>{
-      c.classList.add('with-prompts');
-    });
+    document.querySelectorAll('.dataset-carousel').forEach(c=>c.classList.add('with-prompts'));
     categories.forEach(processCategory);
   }
 
-  if (document.readyState === 'complete' || document.readyState === 'interactive'){
-    setTimeout(init, 50);
-  } else {
+  if (document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 })();
   </script>
