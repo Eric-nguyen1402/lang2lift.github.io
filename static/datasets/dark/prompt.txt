@@ -69,4 +69,4 @@ dark12:
 
 - Outline the pallet placed on the ground in front of the warehouse.
 
-- Highlight the pallet positioned at the center of the image under the lights.
+- Highlight the pallet positioned at the center of the image under the lights
