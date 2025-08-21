@@ -139,9 +139,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This paper presents Lang2Lift, a framework that leverages foundation models to enable natural language-guided pallet detection and pose estimation for autonomous outdoor forklift operations in challenging logistics environments. Unlike traditional systems requiring pre-programmed pallet characteristics, our approach enables operators to specify selection criteria through intuitive commands such as "select the steel beam pallet near the crane."
-The framework integrates vision-language model with robust 6D pallet pose estimation in outdoor environments with variable lighting and cluttered multi-pallet scenes. Our system consists of two main pipelines: a perception pipeline utilizing Florence-2 for language-guided grounded segmentation and masking combined with PoseFoundation for pose estimation, and a planning pipeline that integrates pose detection with motion planning for autonomous forklift operations.
-Experimental validation on the ADAPT autonomous forklift platform demonstrates improvements in pose estimation accuracy compared to traditional approaches, with comprehensive analysis of pose estimation errors across different methodologies.</p>
+            The logistics and construction industries face persistent challenges in automating pallet handling, 
+            especially in outdoor environments with variable payloads, inconsistencies in pallet quality and dimensions, 
+            and unstructured surroundings. In this paper, we tackle automation of a critical step in pallet transport: 
+            the pallet pick-up operation. Our work is motivated by labor shortages, safety concerns, and inefficiencies in manually locating and retrieving pallets under such conditions. 
+            We present Lang2Lift, a framework that leverages foundation models for natural language-guided pallet detection and 6D pose estimation, enabling operators to specify targets through intuitive commands such as “pick up the steel beam pallet near the crane.” 
+            The perception pipeline integrates Florence-2 and SAM2 for language-grounded segmentation with PoseFoundation for robust pose estimation in cluttered, multi-pallet outdoor scenes under variable lighting. 
+            The resulting poses feed into a motion planning module for fully autonomous forklift operation.
+             We validate Lang2Lift on the ADAPT autonomous forklift platform, achieving 0.76 mIoU pallet segmentation accuracy on a real-world test dataset. Timing and error analysis demonstrate the system’s robustness and confirm its feasibility for deployment in operational logistics and construction environments.</p>
         </div>
       </div>
     </div>
@@ -154,7 +159,7 @@ Experimental validation on the ADAPT autonomous forklift platform demonstrates i
   <div class="column is-two-thirds">
     <h2 class="title is-3">Video</h2>
     <div class="publication-video">
-      <iframe src="https://youtu.be/mPlPh0MB6vk?modestbranding=1&autohide=1&showinfo=0&controls=1"
+      <iframe src="https://www.youtube.com/embed/mPlPh0MB6vk?modestbranding=1&autohide=1&showinfo=0&controls=1"
         frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
     </div>
   </div>
