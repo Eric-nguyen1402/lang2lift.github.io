@@ -1,246 +1,246 @@
 snow1:
-- Spot the wooden pallets partially buried under snow.
+- Pick up the wooden pallets partially buried under snow.
 
-- Pinpoint the snow-covered pallets stacked in layers.
+- Pick upt the snow-covered pallets stacked in layers.
 
-- Highlight the pallets arranged in stacks with thick snow resting on top.
+- Pick up the pallets arranged in stacks with thick snow resting on top.
 snow2:
-- Observe the stack of wooden pallets dusted with snow near the building.
+- Pick up the stack of wooden pallets dusted with snow near the building.
 
-- Recognize the pallets arranged in a tall stack in the snowy yard.
+- Pick up the pallets arranged in a tall stack in the snowy yard.
 
-- Outline the snow-covered pallets positioned close to the wall.
+- Pick up the snow-covered pallets positioned close to the wall.
 snow3:
-- Delineate the pallets positioned in the snowy outdoor area.
+- Pick up the pallets positioned in the snowy outdoor area.
 
-- Locate the blue pallet resting upright behind the snow-dusted pallet on the ground.
+- Pick up the blue pallet resting upright behind the snow-dusted pallet on the ground.
 
-- Identify the pair of pallets, one lying flat and the other leaning, both partially covered with snow.
+- Pick up the pair of pallets, one lying flat and the other leaning, both partially covered with snow.
 snow4:
-- Spot the snow-covered wooden pallet lying on the ground near dry grass.
+- Pick up the snow-covered wooden pallet lying on the ground near dry grass.
 
-- Note the pallet partially visible and dusted with snow.
+- Pick up the pallet partially visible and dusted with snow.
 
-- Highlight the pallet positioned at the edge of the snowy, grassy area.
+- Pick up the pallet positioned at the edge of the snowy, grassy area.
 snow5:
-- Identify the pallets with a layer of snow resting on their top surfaces.
+- Pick up the pallets with a layer of snow resting on their top surfaces.
 
-- Pinpoint the stack of snow-covered wooden pallets in the foreground.
+- Pick up the stack of snow-covered wooden pallets in the foreground.
 
-- Emphasize the wooden pallets stacked outdoors under the winter sun.
+- Pick up the wooden pallets stacked outdoors under the winter sun.
 snow6:
-- Outline the pair of pallets partially coated with snow in the foreground.
+- Pick up the pair of pallets partially coated with snow in the foreground.
 
-- Locate the two wooden pallets lying side by side, dusted with snow.
+- Pick up the two wooden pallets lying side by side, dusted with snow.
 
-- Mark the snow-covered pallets placed on the ground in the construction area.
+- Pick up the snow-covered pallets placed on the ground in the construction area.
 snow7:
-- Locate the unevenly stacked wooden pallets covered with patches of snow.
+- Pick up the unevenly stacked wooden pallets covered with patches of snow.
 
-- Identify the pile of snow-topped pallets leaning at various angles.
+- Pick up the pile of snow-topped pallets leaning at various angles.
 
-- Highlight the group of wooden pallets arranged in a tilted stack on the snowy ground.
+- Pick up the group of wooden pallets arranged in a tilted stack on the snowy ground.
 snow8:
-- Recognize the group of pallets with a top one tilted upward and covered in snow.
+- Pick up the group of pallets with a top one tilted upward and covered in snow.
 
-- Pinpoint the snow-dusted wooden pallets stacked unevenly on the icy ground.
+- Pick up the snow-dusted wooden pallets stacked unevenly on the icy ground.
 
-- Outline the stack of weathered pallets with visible frost and a lifted top layer.
+- Pick up the stack of weathered pallets with visible frost and a lifted top layer.
 snow9:
-- Highlight the frosty pallets stacked neatly on the snowy ground.
+- Pick up the frosty pallets stacked neatly on the snowy ground.
 
-- Locate the stack of wooden pallets covered in a thick layer of snow.
+- Pick up the stack of wooden pallets covered in a thick layer of snow.
 
-- Identify the snow-covered pallets arranged horizontally in a pile.
+- Pick up the snow-covered pallets arranged horizontally in a pile.
 snow10:
-- Spot the small stack of weathered wooden pallets resting on the snow.
+- Pick up the small stack of weathered wooden pallets resting on the snow.
 
-- Note the worn pallets partially buried in the snowy ground.
+- Pick up the worn pallets partially buried in the snowy ground.
 
-- Emphasize the pile of rustic pallets positioned in the middle of the snow-covered area.
+- Pick up the pile of rustic pallets positioned in the middle of the snow-covered area.
 snow11:
-- Pinpoint the stack of snow-covered wooden pallets leaning near the dumpster.
+- Pick up the stack of snow-covered wooden pallets leaning near the dumpster.
 
-- Recognize the pallets layered with snow lying on the snowy ground.
+- Pick up the pallets layered with snow lying on the snowy ground.
 
-- Outline the group of pallets arranged in a horizontal stack, partially buried under snow.
+- Pick up the group of pallets arranged in a horizontal stack, partially buried under snow.
 snow12:
-- Spot the snow-dusted wooden pallet on the right side of the trailer.
+- Pick up the snow-dusted wooden pallet on the right side of the trailer.
 
-- Identify the pallet resting on the flatbed, partially covered with snow.
+- Pick up the pallet resting on the flatbed, partially covered with snow.
 
-- Highlight the wooden pallet positioned at the edge of the snowy trailer bed.
+- Pick up the wooden pallet positioned at the edge of the snowy trailer bed.
 snow13:
-- Locate the snow-covered pallet resting on the front edge of the trailer.
+- Pick up the snow-covered pallet resting on the front edge of the trailer.
 
-- Identify the wooden pallet topped with snow in the lower right of the image.
+- Pick up the wooden pallet topped with snow in the lower right of the image.
 
-- Outline the pallet positioned on the snowy trailer bed in the foreground.
+- Pick up the pallet positioned on the snowy trailer bed in the foreground.
 snow13_dup:
-- Detect the dark wooden pallet lying on the snowy ground near the center-right.
+- Pick up the dark wooden pallet lying on the snowy ground near the center-right.
 
-- Pinpoint the pallet partially covered in snow, positioned to the left of the brown one.
+- Pick up the pallet partially covered in snow, positioned to the left of the brown one.
 
-- Highlight the pallet sitting ahead on the icy path in the middle-right of the scene.
+- Pick up the pallet sitting ahead on the icy path in the middle-right of the scene.
 snow14:
-- Spot the dark wooden pallet placed on top of the snow-covered trailer.
+- Pick up the dark wooden pallet placed on top of the snow-covered trailer.
 
-- Identify the light brown pallet resting on the ground beside the trailer.
+- Pick up the light brown pallet resting on the ground beside the trailer.
 
-- Mark the pallet lying next to the vehicle platform in the snowy lot.
+- Pick up the pallet lying next to the vehicle platform in the snowy lot.
 snow15:
-- Detect the dark pallet positioned on the snow-covered trailer.
+- Pick up the dark pallet positioned on the snow-covered trailer.
 
-- Recognize the light brown wooden pallet lying on the ground beside the trailer.
+- Pick up the light brown wooden pallet lying on the ground beside the trailer.
 
-- Highlight the pallets situated next to the large white container in the snowy lot.
+- Pick up the pallets situated next to the large white container in the snowy lot.
 snow16:
-- Locate the two pallets placed on the snow-covered ground in front of the forklift tines.
+- Pick up the two pallets placed on the snow-covered ground in front of the forklift tines.
 
-- Identify the dark and light wooden pallets lying side by side in the snowy lot.
+- Pick up the dark and light wooden pallets lying side by side in the snowy lot.
 
-- Emphasize the pallets positioned ahead of the forklift, near the blue building.
+- Pick up the pallets positioned ahead of the forklift, near the blue building.
 snow17:
-- Pinpoint the two pallets: one on the snowy trailer bed and the other on the ground in front of it.
+- Pick up the two pallets: one on the snowy trailer bed and the other on the ground in front of it.
 
-- Identify the dark wooden pallet resting on the trailer and the light wooden pallet positioned on the gravel.
+- Pick up the dark wooden pallet resting on the trailer and the light wooden pallet positioned on the gravel.
 
-- Outline both pallets placed in front of the forklift tines—one elevated on the trailer, the other directly on the ground.
+- Pick up both pallets placed in front of the forklift tines—one elevated on the trailer, the other directly on the ground.
 snow18:
-- Spot the wooden pallet placed on the snowy trailer bed and the second pallet lying on the ground to the left.
+- Pick up the wooden pallet placed on the snowy trailer bed and the second pallet lying on the ground to the left.
 
-- Identify both pallets: one positioned atop the trailer, the other resting partially on the snowy ground near the edge of the pavement.
+- Pick up both pallets: one positioned atop the trailer, the other resting partially on the snowy ground near the edge of the pavement.
 
-- Highlight the pallet on the trailer platform and the pallet situated on the ground in the left background.
+- Pick up the pallet on the trailer platform and the pallet situated on the ground in the left background.
 snow19:
-- Detect the single wooden pallet lying on the snowy and icy ground in front of the forklift forks.
+- Pick up the single wooden pallet lying on the snowy and icy ground in front of the forklift forks.
 
-- Identify the pallet positioned on the snow-covered path directly ahead of the forklift.
+- Pick up the pallet positioned on the snow-covered path directly ahead of the forklift.
 
-- Highlight the pallet placed on the ground at the center of the image in a snowy outdoor environment.
+- Pick up the pallet placed on the ground at the center of the image in a snowy outdoor environment.
 snow20:
-- Observe the two pallets stacked with snow-covered rectangular bricks or tiles outdoors.
+- Pick up the two pallets stacked with snow-covered rectangular bricks or tiles outdoors.
 
-- Identify both pallets carrying bound stacks of bricks in a snowy environment.
+- Pick up both pallets carrying bound stacks of bricks in a snowy environment.
 
-- Highlight the pallets positioned side-by-side, each holding a load of packaged masonry blocks.
+- Pick up the pallets positioned side-by-side, each holding a load of packaged masonry blocks.
 snow21:
-- Detect the snow-covered wooden pallets stacked haphazardly outdoors.
+- Pick up the snow-covered wooden pallets stacked haphazardly outdoors.
 
-- Identify all pallets piled in an irregular arrangement, partially buried in snow.
+- Pick up all pallets piled in an irregular arrangement, partially buried in snow.
 
-- Outline multiple stacks of wooden pallets in a snowy, cluttered storage area.
+- Pick up multiple stacks of wooden pallets in a snowy, cluttered storage area.
 snow22:
-- Spot the stack of snow-covered wooden pallets from a close side angle.
+- Pick up the stack of snow-covered wooden pallets from a close side angle.
 
-- Identify pallets piled on top of each other with snow resting on edges.
+- Pick up pallets piled on top of each other with snow resting on edges.
 
-- Highlight multiple wooden pallets arranged in a stack in a snowy environment.
+- Pick up multiple wooden pallets arranged in a stack in a snowy environment.
 snow23:
-- Observe a front view of stacked wooden pallets covered with thick snow.
+- Pick up a front view of stacked wooden pallets covered with thick snow.
 
-- Identify multiple pallets arranged in layers with snow piled on top and between gaps.
+- Pick up multiple pallets arranged in layers with snow piled on top and between gaps.
 
-- Highlight a snow-covered pallet stack in an outdoor setting under a blue sky.
+- Pick up a snow-covered pallet stack in an outdoor setting under a blue sky.
 snow24:
-- Detect an excavator near a pallet loaded with stacked construction blocks covered in snow.
+- Pick up an excavator near a pallet loaded with stacked construction blocks covered in snow.
 
-- Identify a snow-covered pallet of bricks in front of an orange excavator at a construction site.
+- Pick up a snow-covered pallet of bricks in front of an orange excavator at a construction site.
 
-- Highlight a pallet holding building materials with snow, positioned beside an excavator in a snowy area.
+- Pick up a pallet holding building materials with snow, positioned beside an excavator in a snowy area.
 snow25:
-- Spot a wooden pallet loaded with red bricks, strapped and covered with a thick layer of snow.
+- Pick up a wooden pallet loaded with red bricks, strapped and covered with a thick layer of snow.
 
-- Identify a snow-covered stack of red construction bricks secured with metal straps on a pallet.
+- Pick up a snow-covered stack of red construction bricks secured with metal straps on a pallet.
 
-- Highlight a pallet carrying red bricks with snow on top in an outdoor industrial setting.
+- Pick up a pallet carrying red bricks with snow on top in an outdoor industrial setting.
 snow26:
-- Observe multiple stacks of wooden pallets covered in snow next to green and gray trash bins.
+- Pick up multiple stacks of wooden pallets covered in snow next to green and gray trash bins.
 
-- Identify a snow-covered outdoor storage area with large piles of wooden pallets and waste containers.
+- Pick up a snow-covered outdoor storage area with large piles of wooden pallets and waste containers.
 
-- Highlight stacked wooden pallets with snow on top in a yard beside garbage bins and bare trees.
+- Pick up stacked wooden pallets with snow on top in a yard beside garbage bins and bare trees.
 snow27:
-- Detect multiple stacks of wooden pallets in a snowy outdoor area surrounded by frost-covered trees.
+- Pick up multiple stacks of wooden pallets in a snowy outdoor area surrounded by frost-covered trees.
 
-- Identify snow-covered wooden pallets arranged in piles on a snow-covered road.
+- Pick up snow-covered wooden pallets arranged in piles on a snow-covered road.
 
-- Highlight stacks of pallets with a layer of snow in a winter forest setting.
+- Pick up stacks of pallets with a layer of snow in a winter forest setting.
 snow28:
-- Spot tall stacks of wooden pallets next to a large pile of snow in an outdoor area.
+- Pick up tall stacks of wooden pallets next to a large pile of snow in an outdoor area.
 
-- Identify multiple snow-free pallets stacked in large columns beside a snow mound.
+- Pick up multiple snow-free pallets stacked in large columns beside a snow mound.
 
-- Highlight stacks of pallets stored outdoors in winter conditions, adjacent to a snowbank.
+- Pick up stacks of pallets stored outdoors in winter conditions, adjacent to a snowbank.
 snow29:
-- Observe pallets loaded with concrete blocks, partially buried in deep snow.
+- Pick up pallets loaded with concrete blocks, partially buried in deep snow.
 
-- Identify snow-covered pallets carrying stacks of masonry blocks in an outdoor winter setting.
+- Pick up snow-covered pallets carrying stacks of masonry blocks in an outdoor winter setting.
 
-- Highlight multiple pallets of grey bricks or concrete pavers under a thick snow layer.
+- Pick up multiple pallets of grey bricks or concrete pavers under a thick snow layer.
 snow30:
-- Detect blue wooden pallets lying on snow-covered ground.
+- Pick up blue wooden pallets lying on snow-covered ground.
 
-- Identify stacked and individual blue pallets partially covered with snow outdoors.
+- Pick up stacked and individual blue pallets partially covered with snow outdoors.
 
-- Highlight bright blue pallets in a snowy winter environment.
+- Pick up bright blue pallets in a snowy winter environment.
 snow31:
-- Detect red wooden pallets lying on snow-covered ground.
+- Pick up red wooden pallets lying on snow-covered ground.
 
-- Identify stacked and individual red pallets partially covered with snow outdoors.
+- Pick up stacked and individual red pallets partially covered with snow outdoors.
 
-- Highlight bright red pallets in a snowy winter environment.
+- Pick up bright red pallets in a snowy winter environment.
 snow32:
-- Detect wooden pallets lying on snow-covered ground.
+- Pick up wooden pallets lying on snow-covered ground.
 
-- Identify stacked and individual wooden pallets partially covered with snow outdoors.
+- Pick up stacked and individual wooden pallets partially covered with snow outdoors.
 
-- Highlight weathered wooden pallets in a snowy winter environment.
+- Pick up weathered wooden pallets in a snowy winter environment.
 snow33:
-- Detect green wooden pallets stacked on snow-covered ground.
+- Pick up green wooden pallets stacked on snow-covered ground.
 
-- Identify stacked green pallets partially covered with snow near a brick wall.
+- Pick up stacked green pallets partially covered with snow near a brick wall.
 
-- Highlight bright green pallets in a snowy outdoor environment.
+- Pick up bright green pallets in a snowy outdoor environment.
 snow34:
-- Detect colorful wooden pallets stacked on snow-covered ground.
+- Pick up colorful wooden pallets stacked on snow-covered ground.
 
-- Identify stacked blue, red, and yellow pallets partially covered with snow outdoors.
+- Pick up stacked blue, red, and yellow pallets partially covered with snow outdoors.
 
-- Highlight vibrant pallets in a snowy outdoor storage area.
+- Pick up vibrant pallets in a snowy outdoor storage area.
 snow35:
-- Detect blue, brown, and gray wooden pallets stacked on snow-covered ground.
+- Pick up blue, brown, and gray wooden pallets stacked on snow-covered ground.
 
-- Identify stacked pallets of various colors partially covered with snow in a forested area.
+- Pick up stacked pallets of various colors partially covered with snow in a forested area.
 
-- Highlight diverse wooden pallets in a snowy outdoor environment.
+- Pick up diverse wooden pallets in a snowy outdoor environment.
 snow36:
-- Spot wooden pallet with red bricks on snow-covered ground.
+- Pick up wooden pallet with red bricks on snow-covered ground.
 
-- Identify wooden pallet loaded with bricks partially covered with snow outdoors.
+- Pick up wooden pallet loaded with bricks partially covered with snow outdoors.
 
-- Highlight brick-stacked wooden pallet in a snowy winter environment.
+- Pick up brick-stacked wooden pallet in a snowy winter environment.
 snow37:
-- Observe multiple pallets stacked with wrapped construction materials in a snowy construction site.
+- Pick up multiple pallets stacked with wrapped construction materials in a snowy construction site.
 
-- Identify pallets carrying building supplies covered with snow in front of a construction area.
+- Pick up pallets carrying building supplies covered with snow in front of a construction area.
 
-- Highlight snow-covered pallets loaded with wrapped bricks at a construction site.
+- Pick up snow-covered pallets loaded with wrapped bricks at a construction site.
 snow38:
-- Detect a pallet loaded with snow-covered concrete blocks at a snowy construction site.
+- Pick up a pallet loaded with snow-covered concrete blocks at a snowy construction site.
 
-- Identify a wooden pallet carrying stacked concrete blocks in a partially built structure.
+- Pick up a wooden pallet carrying stacked concrete blocks in a partially built structure.
 
-- Highlight pallets holding building materials such as concrete blocks at a construction area in winter.
+- Pick up pallets holding building materials such as concrete blocks at a construction area in winter.
 snow39:
-- Spot wooden pallets repurposed as outdoor furniture covered in snow under a wooden shelter.
+- Pick up wooden pallets repurposed as outdoor furniture covered in snow under a wooden shelter.
 
-- Identify snow-covered pallet chairs and tables arranged in an open-air seating area.
+- Pick up snow-covered pallet chairs and tables arranged in an open-air seating area.
 
-- Highlight wooden pallets used as benches and tables in a snowy outdoor pavilion.
+- Pick up wooden pallets used as benches and tables in a snowy outdoor pavilion.
 snow40:
-- Detect wooden pallets arranged as outdoor benches and loungers, covered with snow.
+- Pick up wooden pallets arranged as outdoor benches and loungers, covered with snow.
 
-- Identify snow-covered pallet furniture in a park setting.
+- Pick up snow-covered pallet furniture in a park setting.
 
-- Highlight wooden pallets repurposed as seating and lying areas, blanketed in snow.
+- Pick up wooden pallets repurposed as seating and lying areas, blanketed in snow.

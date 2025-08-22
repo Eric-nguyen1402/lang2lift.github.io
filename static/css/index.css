@@ -199,7 +199,8 @@ body {
   width: 100%;
   max-width: 520px;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 5;
+  position: relative;
 }
 .dataset-carousel.with-prompts .subtitle {
   margin-top: 0.4rem;
@@ -230,7 +231,7 @@ body {
   min-height: 6px;
 }
 
-/* Prompt styles (retain previous) */
+/* Prompt styles */
 .prompt-wrapper {
   margin-top: 0.4rem;
   text-align: left;
@@ -240,38 +241,23 @@ body {
   border: 1px solid #e3e3e3;
   font-size: 0.7rem;
   line-height: 1.15;
-  z-index: 5;
-  position: relative;
 }
 .prompt-wrapper.prompt-error {
   background:#fff3f3;
   border-color:#f0c4c4;
   color:#a33;
 }
-.prompt-preview {
-  font-weight: 600;
-  margin-bottom: 0.35rem;
-}
-.prompt-toggle {
-  font-size: 0.6rem;
-  margin-bottom: 0.3rem;
-  padding: 0.25rem 0.55rem;
-  line-height: 1;
-}
-.prompt-list {
+
+/* Always visible prompt list */
+.prompt-list-all {
   list-style: disc outside;
   margin: 0 0 0 1rem;
   padding: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height .35s ease;
-  font-size: 0.6rem;
+  font-size: 0.65rem;
+  line-height: 1.3;
 }
-.prompt-list.is-open {
-  max-height: 360px;
-}
-.prompt-list li + li {
-  margin-top: 0.25rem;
+.prompt-list-all li + li {
+  margin-top: 0.3rem;
 }
 
 .abstract-image {

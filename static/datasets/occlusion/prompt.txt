@@ -1,204 +1,204 @@
 occ1:
-- Spot the wooden pallet supporting the stack of wrapped boxes.
+- Pick up the wooden pallet supporting the stack of wrapped boxes.
 
-- Pinpoint the pallet positioned near the truck loading area.
+- Pick up the pallet positioned near the truck loading area.
 
-- Highlight the pallet at the bottom of the cargo in the warehouse.
+- Pick up the pallet at the bottom of the cargo in the warehouse.
 occ2:
-- Locate the wooden pallets beneath the stacks of cardboard boxes.
+- Pick up the wooden pallets beneath the stacks of cardboard boxes.
 
-- Emphasize each pallet supporting the cargo near the shipping container.
+- Pick up each pallet supporting the cargo near the shipping container.
 
-- Outline the pallets placed under the boxed goods in the loading area.
+- Pick up the pallets placed under the boxed goods in the loading area.
 occ3:
-- Recognize the pallets supporting the wrapped stacks of cardboard boxes.
+- Pick up the pallets supporting the wrapped stacks of cardboard boxes.
 
-- Mark the pallets positioned near the open truck doors in the warehouse.
+- Pick up the pallets positioned near the open truck doors in the warehouse.
 
-- Spot the wooden pallets beneath the cargo ready for loading.
+- Pick up the wooden pallets beneath the cargo ready for loading.
 occ4:
-- Identify the pallet beneath the shrink-wrapped stack of cardboard boxes.
+- Pick up the pallet beneath the shrink-wrapped stack of cardboard boxes.
 
-- Highlight the pallet located in front of the warehouse shelving.
+- Pick up the pallet located in front of the warehouse shelving.
 
-- Pinpoint the wooden pallet supporting the load beside the forklift.
+- Pick up the wooden pallet supporting the load beside the forklift.
 occ5:
-- Spot the pallet supporting the large shrink-wrapped shipment.
+- Pick up the pallet supporting the large shrink-wrapped shipment.
 
-- Mark the wooden pallet placed on the warehouse floor near the airplane.
+- Pick up the wooden pallet placed on the warehouse floor near the airplane.
 
-- Highlight the pallet beneath the stacked cardboard boxes ready for transport.
+- Pick up the pallet beneath the stacked cardboard boxes ready for transport.
 occ6:
-- Locate the empty wooden pallet on the far left side of the scene.
+- Pick up the empty wooden pallet on the far left side of the scene.
 
-- Highlight the pallet carrying a white block in the center.
+- Pick up the pallet carrying a white block in the center.
 
-- Mark the red-painted pallet positioned to the right of the image.
+- Pick up the red-painted pallet positioned to the right of the image.
 occ7:
-- Spot the pallet carrying a low wooden crate in the center-left.
+- Pick up the pallet carrying a low wooden crate in the center-left.
 
-- Mark the pallet supporting a taller wooden box on the right side.
+- Pick up the pallet supporting a taller wooden box on the right side.
 
-- Highlight both pallets positioned on the dirt path.
+- Pick up both pallets positioned on the dirt path.
 occ8:
-- Select the pallet carrying the wooden crate in the center of the road.
+- Pick up the pallet carrying the wooden crate in the center of the road.
 
-- Target the pallet positioned ahead of the forklift tines.
+- Pick up the pallet positioned ahead of the forklift tines.
 
-- Grab the wooden pallet supporting the stacked box structure.
+- Pick up the wooden pallet supporting the stacked box structure.
 occ9:
-- Lift the pallet carrying a large wooden crate with the forklift.
+- Pick up the pallet carrying a large wooden crate with the forklift.
 
-- Engage the pallet positioned at an angle in front of the red vehicle.
+- Pick up the pallet positioned at an angle in front of the red vehicle.
 
-- Grab the wooden pallet supporting the cargo in the center of the scene.
+- Pick up the wooden pallet supporting the cargo in the center of the scene.
 occ10:
-- Fork the pallet carrying the large wooden crate in front of the red vehicle.
+- Pick up the pallet carrying the large wooden crate in front of the red vehicle.
 
-- Raise the wooden pallet supporting the cargo near the forklift mast.
+- Pick up the wooden pallet supporting the cargo near the forklift mast.
 
-- Grab the pallet positioned under the rectangular wooden box.
+- Pick up the pallet positioned under the rectangular wooden box.
 occ11:
-- Approach the red-painted pallet supporting the wooden crate.
+- Pick up the red-painted pallet supporting the wooden crate.
 
-- Target the pallet placed in front of the forklift’s tines.
+- Pick up the pallet placed in front of the forklift's tines.
 
-- Engage the pallet carrying the rectangular wooden box.
+- Pick up the pallet carrying the rectangular wooden box.
 occ12:
-- Lift the red-painted pallet carrying the wooden crate.
+- Pick up the red-painted pallet carrying the wooden crate.
 
-- Carry the pallet positioned at the front of the forklift.
+- Pick up the pallet positioned at the front of the forklift.
 
-- Raise the pallet supporting the rectangular wooden box.
+- Pick up the pallet supporting the rectangular wooden box.
 occ13:
-- Transport the red-painted pallet carrying the wooden crate in front of the forklift.
+- Pick up the red-painted pallet carrying the wooden crate in front of the forklift.
 
-- Spot the pallet placed on the road in the background.
+- Pick up the pallet placed on the road in the background.
 
-- Handle the pallet supporting the cargo near the center of the scene.
+- Pick up the pallet supporting the cargo near the center of the scene.
 occ14:
-- Approach the wooden pallet carrying the crate in front of the forklift.
+- Pick up the wooden pallet carrying the crate in front of the forklift.
 
-- Align the pallet positioned on the paved surface ahead.
+- Pick up the pallet positioned on the paved surface ahead.
 
-- Prepare the pallet supporting the rectangular wooden box.
+- Pick up the pallet supporting the rectangular wooden box.
 occ15:
-- Engage the wooden pallet carrying the crate in front of the forklift.
+- Pick up the wooden pallet carrying the crate in front of the forklift.
 
-- Lift the pallet positioned on the dirt surface during the demonstration.
+- Pick up the pallet positioned on the dirt surface during the demonstration.
 
-- Handle the pallet supporting the rectangular wooden box near the gathered people.
+- Pick up the pallet supporting the rectangular wooden box near the gathered people.
 occ16:
-- Raise the wooden pallet carrying the crate in front of the forklift.
+- Pick up the wooden pallet carrying the crate in front of the forklift.
 
-- Lift the pallet positioned under the wooden box.
+- Pick up the pallet positioned under the wooden box.
 
-- Secure the pallet being held by the forklift tines.
+- Pick up the pallet being held by the forklift tines.
 occ17:
-- Approach the wooden pallet carrying the crate on the right side.
+- Pick up the wooden pallet carrying the crate on the right side.
 
-- Fork the pallet positioned ahead of the forklift.
+- Pick up the pallet positioned ahead of the forklift.
 
-- Grab the pallet supporting the rectangular wooden box near the bushes.
+- Pick up the pallet supporting the rectangular wooden box near the bushes.
 occ18:
-- Spot the pallets supporting the stacks of wrapped red bricks.
+- Pick up the pallets supporting the stacks of wrapped red bricks.
 
-- Mark the wooden pallets beneath the construction materials.
+- Pick up the wooden pallets beneath the construction materials.
 
-- Identify the pallets placed under the brick stacks on the rocky ground.
+- Pick up the pallets placed under the brick stacks on the rocky ground.
 occ19:
-- Locate the pallets supporting stacks of red bricks and white blocks.
+- Pick up the pallets supporting stacks of red bricks and white blocks.
 
-- Highlight the wooden pallets placed beneath the construction materials.
+- Pick up the wooden pallets placed beneath the construction materials.
 
-- Identify the pallets carrying the wrapped bricks in the yard.
+- Pick up the pallets carrying the wrapped bricks in the yard.
 occ20:
-- Spot the pallets supporting stacks of red and yellow bricks.
+- Pick up the pallets supporting stacks of red and yellow bricks.
 
-- Mark the wooden pallets placed under the building materials in the yard.
+- Pick up the wooden pallets placed under the building materials in the yard.
 
-- Identify the pallets carrying the assorted bricks on the pavement.
+- Pick up the pallets carrying the assorted bricks on the pavement.
 occ21:
-- Identify the pallets supporting the neatly stacked red bricks.
+- Pick up the pallets supporting the neatly stacked red bricks.
 
-- Highlight the pallets placed under the long row of construction materials.
+- Pick up the pallets placed under the long row of construction materials.
 
-- Spot the wooden pallets carrying the brick stacks on the pavement.
+- Pick up the wooden pallets carrying the brick stacks on the pavement.
 occ22:
-- Spot the pallet supporting the shrink-wrapped stack of paving stones.
+- Pick up the pallet supporting the shrink-wrapped stack of paving stones.
 
-- Mark the wooden pallet beneath the strapped construction materials.
+- Pick up the wooden pallet beneath the strapped construction materials.
 
-- Identify the pallet placed on the brick-paved surface in front of the yellow fence.
+- Pick up the pallet placed on the brick-paved surface in front of the yellow fence.
 occ23:
-- Identify the pallets supporting stacks of white paving tiles wrapped in plastic.
+- Pick up the pallets supporting stacks of white paving tiles wrapped in plastic.
 
-- Highlight the wooden pallets placed under the construction materials.
+- Pick up the wooden pallets placed under the construction materials.
 
-- Spot the pallets carrying the shrink-wrapped tiles in the outdoor storage area.
+- Pick up the pallets carrying the shrink-wrapped tiles in the outdoor storage area.
 occ24:
-- Spot the pallet supporting the shrink-wrapped stack of concrete curbs.
+- Pick up the pallet supporting the shrink-wrapped stack of concrete curbs.
 
-- Mark the wooden pallet placed under the heavy construction blocks.
+- Pick up the wooden pallet placed under the heavy construction blocks.
 
-- Identify the pallet carrying the wrapped stone materials on the dirt ground.
+- Pick up the pallet carrying the wrapped stone materials on the dirt ground.
 occ25:
-- Identify the pallets supporting the large wrapped stacks of white blocks.
+- Pick up the pallets supporting the large wrapped stacks of white blocks.
 
-- Highlight the wooden pallets placed beneath the shrink-wrapped materials.
+- Pick up the wooden pallets placed beneath the shrink-wrapped materials.
 
-- Spot the pallets carrying the stacked building blocks in the storage area.
+- Pick up the pallets carrying the stacked building blocks in the storage area.
 occ26:
-- Locate the pallet underneath the stacked white construction slabs.
+- Pick up the pallet underneath the stacked white construction slabs.
 
-- Highlight the wooden pallet holding the flat rectangular building materials.
+- Pick up the wooden pallet holding the flat rectangular building materials.
 
-- Identify the pallet supporting the pile of thin white blocks near the wall.
+- Pick up the pallet supporting the pile of thin white blocks near the wall.
 occ27:
-- Detect the pallet beneath the irregularly stacked white concrete blocks.
+- Pick up the pallet beneath the irregularly stacked white concrete blocks.
 
-- Mark the wooden pallet supporting the pile of broken masonry pieces.
+- Pick up the wooden pallet supporting the pile of broken masonry pieces.
 
-- Identify the pallet carrying the uneven heap of white construction debris.
+- Pick up the pallet carrying the uneven heap of white construction debris.
 occ28:
-- Locate the pallet beneath the stack of large gray stone slabs.
+- Pick up the pallet beneath the stack of large gray stone slabs.
 
-- Identify the wooden pallet holding the pile of rectangular paving stones.
+- Pick up the wooden pallet holding the pile of rectangular paving stones.
 
-- Mark the pallet supporting the unevenly arranged gray stone tiles.
+- Pick up the pallet supporting the unevenly arranged gray stone tiles.
 occ29:
-- Locate the wooden pallet underneath the stacked white stone blocks.
+- Pick up the wooden pallet underneath the stacked white stone blocks.
 
-- Identify the pallet supporting the pile of cube-shaped white stones.
+- Pick up the pallet supporting the pile of cube-shaped white stones.
 
-- Mark the pallet holding the neatly and loosely arranged white stone cubes.
+- Pick up the pallet holding the neatly and loosely arranged white stone cubes.
 occ30:
-- Locate the wooden pallet beneath the stack of rectangular gray paving blocks.
+- Pick up the wooden pallet beneath the stack of rectangular gray paving blocks.
 
-- Identify the pallet supporting the tightly packed gray concrete bricks.
+- Pick up the pallet supporting the tightly packed gray concrete bricks.
 
-- Mark the pallet holding the shrink-wrapped gray stone pavers.
+- Pick up the pallet holding the shrink-wrapped gray stone pavers.
 occ31:
-- Locate the pallet beneath the tightly stacked gray concrete blocks.
+- Pick up the pallet beneath the tightly stacked gray concrete blocks.
 
-- Identify the wooden pallet supporting the large cube of paving stones.
+- Pick up the wooden pallet supporting the large cube of paving stones.
 
-- Mark the pallet holding the shrink-wrapped stack of square gray bricks.
+- Pick up the pallet holding the shrink-wrapped stack of square gray bricks.
 occ32:
-- Locate the pallet beneath the stacks of large gray concrete blocks.
+- Pick up the pallet beneath the stacks of large gray concrete blocks.
 
-- Identify the wooden pallet supporting the cracked and solid cinder blocks.
+- Pick up the wooden pallet supporting the cracked and solid cinder blocks.
 
-- Mark the pallet holding the rectangular concrete bricks in the foreground.
+- Pick up the pallet holding the rectangular concrete bricks in the foreground.
 occ33:
-- Locate the pallet under the neatly strapped stack of concrete blocks.
+- Pick up the pallet under the neatly strapped stack of concrete blocks.
 
-- Identify the wooden pallet holding the small group of hollow cinder blocks on the right.
+- Pick up the wooden pallet holding the small group of hollow cinder blocks on the right.
 
-- Mark the pallet supporting the large pile of rectangular gray bricks.
+- Pick up the pallet supporting the large pile of rectangular gray bricks.
 occ34:
-- Locate the pallet beneath the strapped stack of long rectangular concrete blocks.
+- Pick up the pallet beneath the strapped stack of long rectangular concrete blocks.
 
-- Identify the wooden pallet supporting the heavy load of gray construction slabs.
+- Pick up the wooden pallet supporting the heavy load of gray construction slabs.
 
-- Mark the pallet under the neatly bound layers of precast concrete.
+- Pick up the pallet under the neatly bound layers of precast concrete.

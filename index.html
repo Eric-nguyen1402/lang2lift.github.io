@@ -576,11 +576,10 @@
 
   </body>
   <script>
-// Prompt logic v4
+// Prompt logic v5 - Show all prompts by default
 (function() {
   const categories = ['sunny','snowy','dark','occlusion'];
   const promptCache = {};
-  const autoOpenAll = false;
 
   function parsePrompts(text){
     const map = {};
@@ -626,39 +625,17 @@
     const wrapper = document.createElement('div');
     wrapper.className='prompt-wrapper';
 
-    // Preview (first line)
-    const preview = document.createElement('div');
-    preview.className='prompt-preview';
-    preview.textContent = prompts[0] || '(no prompt)';
-    wrapper.appendChild(preview);
-
-    if (prompts.length > 1){
-      const remaining = prompts.slice(1);
-      const toggle = document.createElement('button');
-      toggle.type='button';
-      toggle.className='prompt-toggle button is-light is-small';
-      toggle.textContent = `Show all prompts (${remaining.length} more)`;
-      const list = document.createElement('ul');
-      list.className='prompt-list';
-      // Add ALL remaining lines
-      remaining.forEach(p=>{
-        const li=document.createElement('li');
-        li.textContent=p;
-        list.appendChild(li);
-      });
-      toggle.addEventListener('click', ()=>{
-        const open = list.classList.toggle('is-open');
-        toggle.textContent = open
-          ? 'Hide prompts'
-          : `Show all prompts (${remaining.length} more)`;
-      });
-      if (autoOpenAll){
-        list.classList.add('is-open');
-        toggle.textContent='Hide prompts';
-      }
-      wrapper.appendChild(toggle);
-      wrapper.appendChild(list);
-    }
+    // Show all prompts directly as a list
+    const list = document.createElement('ul');
+    list.className='prompt-list-all';
+    
+    prompts.forEach(p=>{
+      const li=document.createElement('li');
+      li.textContent=p;
+      list.appendChild(li);
+    });
+    
+    wrapper.appendChild(list);
     return wrapper;
   }
 
@@ -684,9 +661,6 @@
         const existing = item.querySelector('.prompt-wrapper');
         if(existing) existing.remove(); // re-render (in case of old versions)
         item.appendChild(createPromptUI(prompts));
-        if(prompts.length < 3){
-          console.debug(`Key ${base} has only ${prompts.length} prompts parsed`, prompts);
-        }
       } else if(hadError){
         attachFailureMessage(item, map._error);
       } else {

@@ -1,72 +1,72 @@
 dark1:
-- Find the wooden pallet in the center of the image.
+- Pick up the wooden pallet in the center of the image.
 
-- Pinpoint the pallet positioned under the light beams.
+- Pick up the pallet positioned under the light beams.
 
-- Highlight the rectangular wooden pallet resting on the floor.
+- Pick up the rectangular wooden pallet resting on the floor.
 dark2:
-- Spot the wooden pallet leaning in the foreground.
+- Pick up the wooden pallet leaning in the foreground.
 
-- Mark all pallets stacked and leaning against each other.
+- Pick up all pallets stacked and leaning against each other.
 
-- Outline the angled pallet with visible paint stains.
+- Pick up the angled pallet with visible paint stains.
 dark3:
-- Find the wooden pallet in the lower left of the image.
+- Pick up the wooden pallet in the lower left of the image.
 
-- Spot the pallet positioned in the upper right corner.
+- Pick up the pallet positioned in the upper right corner.
 
-- Mark both pallets placed separately against the dark background.
+- Pick up both pallets placed separately against the dark background.
 dark4:
-- Pinpoint the wooden pallet in the foreground covered with patches of snow.
+- Pick up the wooden pallet in the foreground covered with patches of snow.
 
-- Find the pallet placed on the ground near the left side of the image.
+- Pick up the pallet placed on the ground near the left side of the image.
 
-- Highlight both pallets lying on the snowy surface.
+- Pick up both pallets lying on the snowy surface.
 dark5:
-- Spot the snow-covered pallet on the left side of the image.
+- Pick up the snow-covered pallet on the left side of the image.
 
-- Outline the wooden pallet lying on the ground in front of the yellow poles.
+- Pick up the wooden pallet lying on the ground in front of the yellow poles.
 
-- Mark the pallet placed on the icy surface near the left edge.
+- Pick up the pallet placed on the icy surface near the left edge.
 dark6:
-- Find the empty wooden pallet in the center of the image.
+- Pick up the empty wooden pallet in the center of the image.
 
-- Pinpoint the pallet positioned between the two crates.
+- Pick up the pallet positioned between the two crates.
 
-- Highlight the central pallet placed on the dirt path.
+- Pick up the central pallet placed on the dirt path.
 dark7:
-- Spot the stacked wooden pallets forming the walls around the scene.
+- Pick up the stacked wooden pallets forming the walls around the scene.
 
-- Outline the pallets arranged vertically along the right side of the image.
+- Pick up the pallets arranged vertically along the right side of the image.
 
-- Trace the horizontal rows of pallets illuminated by purple and blue lights.
+- Pick up the horizontal rows of pallets illuminated by purple and blue lights.
 dark8:
-- Find the tall stacks of pallets illuminated with blue lighting on the left side of the image.
+- Pick up the tall stacks of pallets illuminated with blue lighting on the left side of the image.
 
-- Mark the vertical pallet stacks positioned in the center and right side of the scene.
+- Pick up the vertical pallet stacks positioned in the center and right side of the scene.
 
-- Highlight the multiple pallet towers forming walls under colored lights.
+- Pick up the multiple pallet towers forming walls under colored lights.
 dark9:
-- Pinpoint the stack of wooden pallets illuminated at the center of the image.
+- Pick up the stack of wooden pallets illuminated at the center of the image.
 
-- Spot the pallets arranged in multiple layers under the spotlight.
+- Pick up the pallets arranged in multiple layers under the spotlight.
 
-- Outline the rectangular stack of pallets placed indoors with a city skyline in the background.
+- Pick up the rectangular stack of pallets placed indoors with a city skyline in the background.
 dark10:
-- Spot the multiple stacks of wooden pallets along the waterfront.
+- Pick up the multiple stacks of wooden pallets along the waterfront.
 
-- Highlight the pallets arranged in tall columns near the water's edge.
+- Pick up the pallets arranged in tall columns near the water's edge.
 
-- Pinpoint the group of pallets positioned in front of the city skyline.
+- Pick up the group of pallets positioned in front of the city skyline.
 dark11:
-- Mark the two rows of pallets lying on the floor in the foreground.
+- Pick up the two rows of pallets lying on the floor in the foreground.
 
-- Recognize the large stacked wall of pallets at the back of the studio.
+- Pick up the large stacked wall of pallets at the back of the studio.
 
-- Trace all pallets present in the scene, both on the ground and in tall stacks.
+- Pick up all pallets present in the scene, both on the ground and in tall stacks.
 dark12:
-- Spot the wooden pallet lying flat in the foreground.
+- Pick up the wooden pallet lying flat in the foreground.
 
-- Outline the pallet placed on the ground in front of the warehouse.
+- Pick up the pallet placed on the ground in front of the warehouse.
 
-- Highlight the pallet positioned at the center of the image under the lights
+- Pick up the pallet positioned at the center of the image under
