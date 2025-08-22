@@ -274,6 +274,40 @@ body {
   margin-top: 0.25rem;
 }
 
+.abstract-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 400px;
+}
+
+.abstract-image img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Ensure columns have equal height */
+.columns.is-vcentered {
+  align-items: stretch;
+}
+
+.columns.is-vcentered .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns.is-vcentered .column .content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .dataset-carousel .item { height: 300px; }
   .dataset-carousel .item img { max-height: 200px; }
