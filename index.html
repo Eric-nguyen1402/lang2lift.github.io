@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Lang2Lift: A Framework for Language-Guided Pallet Detection and Pose Estimation Integrated in Autonomous Outdoor Forklift Operation</h1>
+            <h1 class="title is-1 publication-title">Lang2Lift:  A Language-Guided Autonomous Forklift System for Outdoor Industrial Pallet Handling</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <!-- <span class="author-block">
@@ -136,14 +136,12 @@
         <h2 class="title is-3 has-text-centered">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The logistics and construction industries face persistent challenges in automating pallet handling, 
-            especially in outdoor environments with variable payloads, inconsistencies in pallet quality and dimensions, 
-            and unstructured surroundings. In this paper, we tackle automation of a critical step in pallet transport: 
-            the pallet pick-up operation. Our work is motivated by labor shortages, safety concerns, and inefficiencies in manually locating and retrieving pallets under such conditions. 
-            We present Lang2Lift, a framework that leverages foundation models for natural language-guided pallet detection and 6D pose estimation, enabling operators to specify targets through intuitive commands such as "pick up the steel beam pallet near the crane." 
-            The perception pipeline integrates Florence-2 and SAM2 for language-grounded segmentation with PoseFoundation for robust pose estimation in cluttered, multi-pallet outdoor scenes under variable lighting. 
-            The resulting poses feed into a motion planning module for fully autonomous forklift operation.
-             We validate Lang2Lift on the ADAPT autonomous forklift platform, achieving 0.76 mIoU pallet segmentation accuracy on a real-world test dataset. Timing and error analysis demonstrate the system's robustness and confirm its feasibility for deployment in operational logistics and construction environments.</p>
+            Automating pallet handling in outdoor logistics and construction environments remains challenging due to unstructured scenes, variable pallet configurations, and changing environmental conditions. 
+            In this paper, we present Lang2Lift, a language-guided autonomous forklift system for practical pallet pick-up in real-world outdoor settings. The system enables operators to specify target pallets using natural language instructions, allowing flexible selection among multiple pallets with different loads and spatial arrangements. 
+            Lang2Lift integrates foundation-model-based perception with motion planning and control in a closed-loop pipeline. Language-grounded perception identifies and segments the target pallet, followed by 6D pose estimation and geometric refinement to generate fork insertion poses, which are directly coupled with the forklift controller for autonomous execution. 
+            We deploy and evaluate the system on the ADAPT autonomous outdoor forklift platform across cluttered scenes, varying lighting conditions, and diverse payload configurations. 
+            On a prompt-conditioned test dataset (129 images, 387 prompt-image pairs), the perception pipeline achieves consistent segmentation performance under challenging conditions, with a mean IoU of 0.59 and success rates exceeding 60% at IoU>=0.5 in the best configuration, while ablation studies highlight the importance of mask refinement.
+            Tolerance-based pose evaluation indicates accuracy sufficient for reliable fork insertion. Timing and failure analyses further discuss deployment trade-offs and practical limitations in industrial automation contexts.</p>
         </div>
       </div>
       <div class="column is-half">
@@ -402,7 +400,12 @@
                   <figure class="has-text-centered">
                     <img src="./static/images/table1.png" alt="Quantitative performance across conditions" style="width:100%;height:auto;" />
                     <figcaption class="subtitle is-size-6 has-text-justified" style="margin-top:0.75rem;">
-                      Results show robust zero-shot performance across challenging conditions: mIoU 0.85 sunny, 0.77 snow, 0.78 occlusion, 0.65 low light. Overall 0.76 mIoU success—outperforming traditional CNN baselines (0.4–0.5 mIoU). Foundation model pre-training enables adaptation to weather, lighting, and visibility variations while supporting diverse natural language references.
+                      Table I reports prompt-conditioned pallet segmentation on our outdoor forklift test set (129 images, 387 prompt-image pairs). 
+                      Unlike conventional instance segmentation benchmarks, our evaluation is query-based: each test sample is a (prompt, image) pair. 
+                      We compare against a training-free open-vocabulary baseline using GroundingDINO for box grouding followed by SAM2 for mask refinement.
+                      Overall, GroundingDINO+SAM-2 achieves mIoU 0.531 and SR@0.75 49.61%, while our Florence-2 open-vocabulary variant (pallet only + SAM-2) achieves higher overall accuracy (mIoU 0.587 and SR@0.75 52.71%).
+                      While Florence-2 and GroundingDINO provide comparable training-free performance when paired with SAM-2, we select Florence-2 as the core perception model because it is a generalist foundation model that supports a broader set of vision tasks within a unified interface (e.g., open-vocabulary detection and phrase grounding within the same model family). 
+                      This design choice increases pipeline flexibility for language-guided autonomy: the same perception backend can be reused for different operator intents (e.g., grounding, verification queries, or extended scene understanding) without introducing separate task-specific models
                     </figcaption>
                   </figure>
                 </div>
